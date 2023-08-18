@@ -6,11 +6,16 @@ import ici_logo from './ici_logo.png';
 
 import scroll_down from './scroll_down.png';
 
-import img1 from './1.jpg';
-import img2 from './2.jpg';
-import img3 from './3.jpg';
-import img4 from './4.jpg';
-import img5 from './5.jpg';
+import a from './a.jpg';
+import b from './b.jpg';
+import c from './c.jpg';
+import d from './d.jpg';
+import e from './e.jpg';
+import f from './f.jpg';
+import g from './g.jpg';
+import h from './h.jpg';
+import i from './i.jpg';
+import j from './j.jpg';
 
 import img11 from './11.png';
 import img12 from './12.png';
@@ -48,11 +53,6 @@ export {
     skit_logo,
     ici_logo,
     scroll_down,
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
     img11,
     img12,
     img13, 
@@ -78,4 +78,5 @@ export {
     help_icon,
     contact_icon,
     location_icon,
+    a,b,c,d,e,f,g,h,i,j,
 };

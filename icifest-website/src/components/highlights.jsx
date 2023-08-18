@@ -1,6 +1,6 @@
 import React from "react";
 
-import { img1, img2, img3, img4, img5 } from "../assets";
+import { a,b,c,d,e,f,g,h,i,j } from "../assets";
 
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 
 
 const Highlight = () => {
-  const image_list = [img1, img2, img3, img4, img5, img1, img2, img3, img4, img5, img1, img2, img3, img4, img5, img1, img2, img3, img4, img5]
+  const image_list = [a,b,c,d,e,f,g,h,i,j]
   return (
     <>
       <div className="w-full xl:w-[800px] flex justify-center items-end overflow-hidden my-[10px] ">
