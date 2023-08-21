@@ -92,9 +92,9 @@ const Navbar = () => {
                                 <li className="hover:border-b-[3px] duration-100 px-[10px] hover:pb-[8px] border-[#ff583e]">
                                     <a href="">GALLERY</a>
                                 </li>
-                                {/* <li className="hover:border-b-[3px] duration-100 px-[10px] hover:pb-[8px] border-[#ff583e]">
-                                    <Link to="/teams">Teams</Link>
-                                </li> */}
+                                <li className="hover:border-b-[3px] duration-100 px-[10px] hover:pb-[8px] border-[#ff583e]">
+                                    <Link to="/aboutteam">ABOUT</Link>
+                                </li>
                                 <li className="hover:border-b-[3px] duration-100 px-[10px] hover:pb-[8px] border-[#ff583e]">
                                     <Link to="/events">EVENTS</Link>
                                 </li>
@@ -107,7 +107,7 @@ const Navbar = () => {
                             <ul className="nav-menu flex xl:hidden ">
                                 <li className="nav-link"><a href="/">Home</a></li>
                                 <li className="nav-link"><a href="">Gallery</a></li>
-                                {/* <li className="nav-link"><Link to="/teams">Teams</Link></li> */}
+                                <li className="nav-link"><Link to="/aboutteam">About</Link></li>
                                 <li className="nav-link"><Link to="/events">Events</Link></li>
                                 <li className="nav-link"><Link to="/accommodation">Accommodation</Link></li>
                                 <li className="block md:hidden">

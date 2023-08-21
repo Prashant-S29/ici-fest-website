@@ -47,6 +47,14 @@ import location_icon from './location_icon.png';
 import quicklink_icon from './quicklink_icon.png';
 import social_icon from './social_icon.png';
 
+import img102 from './103.png';
+import img104 from './104.png';
+
+import team1 from './team1.png';
+import team2 from './team2.png';
+import team3 from './team3.png';
+import team4 from './team4.png';
+
 export {
     bg_video_desktop,
     bg_video_mobile,
@@ -79,4 +87,6 @@ export {
     contact_icon,
     location_icon,
     a,b,c,d,e,f,g,h,i,j,
+    img102,img104,
+    team1, team2, team3, team4,
 };

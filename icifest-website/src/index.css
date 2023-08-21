@@ -211,3 +211,12 @@
 .deactive-div{
     display: none;
 }
+
+
+.team-photo{
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.name_hide{
+    margin-top: -50px;
+}
