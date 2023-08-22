@@ -47,13 +47,17 @@ import location_icon from './location_icon.png';
 import quicklink_icon from './quicklink_icon.png';
 import social_icon from './social_icon.png';
 
-import img102 from './103.png';
+import img102 from './102.jpg';
+import img103 from './103.png';
 import img104 from './104.png';
 
 import team1 from './team1.png';
 import team2 from './team2.png';
 import team3 from './team3.png';
 import team4 from './team4.png';
+
+import tech2 from './tech2.png';
+import tech3 from './tech3.png';
 
 export {
     bg_video_desktop,
@@ -87,6 +91,7 @@ export {
     contact_icon,
     location_icon,
     a,b,c,d,e,f,g,h,i,j,
-    img102,img104,
+    img102, img103,img104,
     team1, team2, team3, team4,
+    tech2, tech3,
 };

@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import { img102, img104, scroll_down, team1, team2, team3, team4 } from "../assets";
+import { img103, img102, img104, scroll_down, team1, team2, team3, team4, tech3, tech2} from "../assets";
 
 const AboutTeam = () => {
 
@@ -33,55 +33,83 @@ const AboutTeam = () => {
 
                 </div>
             </div>
-            <div className="text-center mt-[30px]"><span className="font-semibold uppercase text-[14px]" >Meet The Team</span></div>
-            <div className="text-center font-extrabold text-[36px] "><span>Working
-                <span className="text-[#ff583e]"> Team</span></span></div>
-
-            <div className="flex justify-evenly mt-[20px] ">
-
-                <div className="overflow-hidden team-photo  rounded-[20px]">
-                    <div className="w-[250px] h-[300px] bg-[#c7c7c7] z-10 overflow-hidden ">
-                        <img src={team3} className=" w-full   " />
+            <div>
+                <div className="text-center mt-[30px]"><span className="font-semibold uppercase text-[14px]" >
+                Meet The Team</span></div>
+                <div className="text-center font-extrabold text-[36px] "><span>Working
+                    <span className="text-[#ff583e]"> Team</span></span></div>
+                <div className="flex justify-evenly mt-[30px] ">
+                    <div className="overflow-hidden team-photo  rounded-[20px]">
+                        <div className="w-[250px] h-[300px] bg-[#c7c7c7] z-10 overflow-hidden ">
+                            <img src={team3} className=" w-full   " />
+                        </div>
+                        <div className="p-[10px] text-center">
+                            <div><span className="font-semibold " >Kunal Sharma</span></div>
+                            <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
+                        </div>
                     </div>
-                    <div className="p-[10px] text-center">
-                        <div><span className="font-semibold " >Kunal Sharma</span></div>
-                        <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
+                    <div className="overflow-hidden team-photo  rounded-[20px]">
+                        <div className="w-[250px] h-[300px] overflow-hidden bg-[#c7c7c7] z-10  ">
+                            <img src={team4} className=" w-full   " />
+                        </div>
+                        <div className="p-[10px] text-center ">
+                            <div><span className="font-semibold " >Vishal Bansiwal</span></div>
+                            <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
+                        </div>
                     </div>
-                </div>
-
-                <div className="overflow-hidden team-photo  rounded-[20px]">
-                    <div className="w-[250px] h-[300px] overflow-hidden bg-[#c7c7c7] z-10  ">
-                        <img src={team4} className=" w-full   " />
+                    <div className="overflow-hidden team-photo   rounded-[20px]">
+                        <div className="w-[250px] h-[300px] overflow-hidden bg-[#c7c7c7] z-10  ">
+                            <img src={team2} className=" w-full   " />
+                        </div>
+                        <div className="p-[10px] text-center">
+                            <div><span className="font-semibold " >Rohit Lamba</span></div>
+                            <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
+                        </div>
                     </div>
-                    <div className="p-[10px] text-center ">
-                        <div><span className="font-semibold " >Vishal Bansiwal</span></div>
-                        <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
-                    </div>
-                </div>
-
-                <div className="overflow-hidden team-photo   rounded-[20px]">
-                    <div className="w-[250px] h-[300px] overflow-hidden bg-[#c7c7c7] z-10  ">
-                        <img src={team2} className=" w-full   " />
-                    </div>
-                    <div className="p-[10px] text-center">
-                        <div><span className="font-semibold " >Rohit Lamba</span></div>
-                        <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
-                    </div>
-                </div>
-
-                <div className="overflow-hidden team-photo  rounded-[20px]">
-                    <div className="w-[250px] h-[300px] overflow-hidden bg-[#c7c7c7] z-10  ">
-                        <img src={team1} className=" w-full   " />
-                    </div>
-                    <div className="p-[10px] text-center">
-                        <div><span className="font-semibold " >Kritika Meena</span></div>
-                        <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
+                    <div className="overflow-hidden team-photo  rounded-[20px]">
+                        <div className="w-[250px] h-[300px] overflow-hidden bg-[#c7c7c7] z-10  ">
+                            <img src={team1} className=" w-full   " />
+                        </div>
+                        <div className="p-[10px] text-center">
+                            <div><span className="font-semibold " >Kritika Meena</span></div>
+                            <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
+                        </div>
                     </div>
                 </div>
+            </div>
 
-
-
-
+            <div className="mt-[70px]">
+                <div className="text-center font-extrabold text-[36px] "><span>Technical
+                    <span className="text-[#ff583e]"> Team</span></span></div>
+                <div className="flex justify-evenly mt-[40px] ">
+                    <div className="overflow-hidden team-photo  rounded-[20px]">
+                        <div className="w-[250px] h-[300px] bg-[#c7c7c7] z-10 overflow-hidden ">
+                            <img src={team3} className=" w-full   " />
+                        </div>
+                        <div className="p-[10px] text-center">
+                            <div><span className="font-semibold " >Kunal Sharma</span></div>
+                            <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
+                        </div>
+                    </div>
+                    <div className="overflow-hidden team-photo   rounded-[20px]">
+                        <div className="w-[250px] h-[300px] overflow-hidden bg-[#c7c7c7] z-10  ">
+                            <img src={tech2} className=" w-full   " />
+                        </div>
+                        <div className="p-[10px] text-center">
+                            <div><span className="font-semibold " >Kanishk Bhardwaj</span></div>
+                            <div><span className="text-[14px]" >3<sup>rd </sup>yea  r CE</span></div>
+                        </div>
+                    </div>
+                    <div className="overflow-hidden team-photo  rounded-[20px]">
+                        <div className="w-[250px] h-[300px] overflow-hidden bg-[#c7c7c7] z-10  ">
+                            <img src={tech3} className=" w-full   " />
+                        </div>
+                        <div className="p-[10px] text-center">
+                            <div><span className="font-semibold " >Prashant Singh</span></div>
+                            <div><span className="text-[14px]" >2<sup>nd </sup>year IOT</span></div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
