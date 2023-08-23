@@ -1,6 +1,8 @@
 # React Project with Vite
 
-Welcome to the README file for your React project built with Vite. This guide will help you get started with cloning, setting up, and running the project on your local machine.
+Welcome Folks. This is the website for my college for there ICI Fest'2023. 
+This guide will help you get started with cloning, setting up, and running the project on your local machine.
+Happy Learning.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
