@@ -24,4 +24,23 @@ Before you start, ensure you have the following installed:
 To clone this repository, open your terminal and run the following command:
 
 ```bash
-git clone https://github.com/YourUsername/your-vite-react-project.git
+git clone https://github.com/Prashant-S29/ici-fest-website.git
+```
+
+### Install Dependencies
+
+Install all the dependencies to set up the project:
+
+```bash
+cd ici-fest-website
+npm install
+```
+
+### Start the Development Server
+
+Start the Vite development server:
+
+```bash
+npm run dev
+```
+This will build the project and start a local development server. Open your browser and go to http://localhost:3000 to see your React app in action.
