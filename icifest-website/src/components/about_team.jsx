@@ -97,7 +97,7 @@ const AboutTeam = () => {
                         </div>
                         <div className="p-[10px] text-center">
                             <div><span className="font-semibold " >Kanishk Bhardwaj</span></div>
-                            <div><span className="text-[14px]" >3<sup>rd </sup>yea  r CE</span></div>
+                            <div><span className="text-[14px]" >3<sup>rd </sup>year CE</span></div>
                         </div>
                     </div>
                     <div className="overflow-hidden team-photo  rounded-[20px]">

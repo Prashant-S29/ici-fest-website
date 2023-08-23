@@ -36,7 +36,7 @@ const Footer = () => {
                 <li className="hover:text-[#ff583e] duration-300 mb-[10px] text-[#fff]"><a href="">Gallery</a></li>
                 <li className="hover:text-[#ff583e] duration-300 mb-[10px]"><Link to="/events">Events</Link></li>
                 <li className="hover:text-[#ff583e] duration-300 mb-[10px]"><Link to="/accommodation">Accommodation</Link></li>
-                <li className="hover:text-[#ff583e] duration-300"><a href="">Registration</a></li>
+                <li className="hover:text-[#ff583e] duration-300"><Link to='/registrations'>Register Now</Link></li>
               </ul>
             </div>
           </div>
