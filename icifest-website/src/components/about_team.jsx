@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import { img103, img102, img104, scroll_down, team1, team2, team3, team4, tech3, tech2 } from "../assets";
+import { img103, img102, img104, scroll_down, team1, team2, team3, team4, tech3, tech2, one, two, three, four } from "../assets";
 
 const AboutTeam = () => {
 
@@ -28,11 +28,39 @@ const AboutTeam = () => {
                 </div>
             </div>
 
-            <div className="text-center mt-[20px]" ><span className="font-extrabold text-[48px]" >JAIPUR</span></div>
-            <div className="flex justify-center " ><div className="h-[6px] w-[120px] rounded-full bg-[#ff583e]" /></div>
             <div>
-                
+                <div className="text-center mt-[20px]" ><span className="font-extrabold text-[48px]" >JAIPUR</span></div>
+                <div className="flex justify-center " ><div className="h-[6px] w-[120px] rounded-full bg-[#ff583e]" /></div>
+                <div className="text-center mx-[100px] mt-[30px]">
+                    <span className="font-semibold text-[18px]">The Pink City, Jaipur is considered as the first "planned" city in
+                        the Common Era. Renowned globally for its coloured gems, the capital
+                        city of Rajasthan combines the allure of its ancient history of
+                        marvellous forts, magnificent temples and gorgeous palaces with all
+                        the advantages of a metropolis. Jaipur is a popular tourist
+                        destination in India and forms a part of the west Golden Triangle
+                        tourist circuit along with Delhi and Agra.</span>
+                </div>
+                <div className="flex flex-wrap justify-center xl:justify-evenly mt-[50px] gap-[10px] xl:gap-0">
+                    <div>
+                        <div className="overflow-hidden rounded-[20px]"><img src={one} className="w-[280px] rounded-[20px] hover:scale-105 duration-[100ms]" /></div>
+                        <div className="text-center mt-[5px]"><span className="font-semibold">PATRIKA GATE</span></div>
+                    </div>
+                    <div>
+                        <div className="overflow-hidden rounded-[20px]"><img src={two} className="w-[280px] rounded-[20px] hover:scale-105 duration-[100ms]" /></div>
+                        <div className="text-center mt-[5px]"><span className="font-semibold">JAL MAHAL</span></div>
+                    </div>
+                    <div>
+                        <div className="overflow-hidden rounded-[20px]"><img src={three} className="w-[280px] rounded-[20px] hover:scale-105 duration-[100ms]" /></div>
+                        <div className="text-center mt-[5px]"><span className="font-semibold">HAWA MAHAL</span></div>
+                    </div>
+                    <div>
+                        <div className="overflow-hidden rounded-[20px]"><img src={four} className="w-[280px] rounded-[20px] hover:scale-105 duration-[100ms]" /></div>
+                        <div className="text-center mt-[5px]"><span className="font-semibold">JANTAR MANTAR</span></div>
+                    </div>
+                </div>
             </div>
+
+
 
             <div>
                 <div className="text-center mt-[30px]"><span className="font-semibold uppercase text-[14px]" >

@@ -62,6 +62,11 @@ import tech3 from './tech3.png';
 import bg_image from './bg_image.png';
 import bg_image1 from './bg_image_1.png';
 
+import one from './1.png';
+import two from './2.png';
+import three from './3.png';
+import four from './4.png';
+
 export {
     bg_video_desktop,
     bg_video_mobile,
@@ -97,5 +102,6 @@ export {
     img102, img103,img104,
     team1, team2, team3, team4,
     tech2, tech3,
-    bg_image,bg_image1
+    bg_image,bg_image1,
+    one, two, three, four,
 };
