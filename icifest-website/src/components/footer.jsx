@@ -48,6 +48,8 @@ const Footer = () => {
               <div className="text-[15px] mt-[5px] ml-[28px]  " >
                 <ul className="text-[#fff]">
                   <li className="hover:text-[#ff583e] duration-300 mb-[10px]"><a href="https://www.instagram.com/ici_skit/" target="blank">Instagram</a></li>
+                  <li className="hover:text-[#ff583e] duration-300 mb-[10px]">
+                    <a href="https://m.youtube.com/@ICIFest_SKIT" target="blank">YouTube</a></li>
                 </ul>
               </div>
             </div><br />
@@ -67,9 +69,14 @@ const Footer = () => {
               <img src={help_icon} className="w-[18px] aspect-square" /></span><span className="font-bold text-[18px]">Help and Query</span></div>
             <div className="text-[15px] mt-[10px] ml-[28px] " >
               <ul className="text-[#fff]">
-                <li className="hover:text-[#ff583e] duration-300 mb-[10px]">Kunal Sharma - 9413861055</li>
-                <li className="hover:text-[#ff583e] duration-300 mb-[10px]">Vishal Bansiwal - 9783140934</li>
-                <li className="hover:text-[#ff583e] duration-300 mb-[10px]">Rohit Lamba - 8107375376</li>
+                <li className="hover:text-[#ff583e] duration-300  mb-[10px]">Kunal Sharma -
+                  <a href='https://wa.me/9413861055' target="blank"> 9413861055</a></li>
+                <li className="hover:text-[#ff583e] duration-300  mb-[10px]">Vishal Bansiwal -
+                  <a href='https://wa.me/9783140934' target="blank"> 9783140934</a></li>
+                <li className="hover:text-[#ff583e] duration-300  mb-[10px]">Rohit Lamba -
+                  <a href='https://wa.me/8107375376' target="blank"> 8107375376</a></li>
+                <li className="hover:text-[#ff583e] duration-300  mb-[10px]">Kritika Meena -
+                  <a href='https://wa.me/8619582281' target="blank"> 8619582281</a></li>
                 <li className="hover:text-[#ff583e] duration-300"><a href="mailto:codeprashant29@gmail.com">Report Bug</a></li>
               </ul>
             </div>
@@ -132,7 +139,8 @@ const Footer = () => {
                 <img src={help_icon} className="w-[18px] aspect-square" /></span><span className="text-[16px] md:text-[18px] font-bold" >Help and Query</span></div>
               <div className="text-[13px] md:text-[15px] mt-[3px] md:mt-[5px]  ml-[24px] " >
                 <ul className="text-[#fff]">
-                  <li className="hover:text-[#ff583e] duration-300">Kunal Sharma - 9413861055</li>
+                  <li className="hover:text-[#ff583e] duration-300">Kunal Sharma -
+                    <a href='https://wa.me/9413861055'>9413861055</a></li>
                   <li className="hover:text-[#ff583e] duration-300">Vishal Bansiwal - 9783140934</li>
                   <li className="hover:text-[#ff583e] duration-300">Rohit Lamba - 8107375376</li>
                   <li className="hover:text-[#ff583e] duration-300"><a href="mailto:codeprashant29@gmail.com">Report Bug</a></li>
@@ -145,6 +153,8 @@ const Footer = () => {
               <div className="text-[13px] md:text-[15px] mt-[5px] ml-[22px] " >
                 <ul className="text-[#fff]">
                   <li className="hover:text-[#ff583e] duration-300"><a href="https://www.instagram.com/ici_skit/" target="blank">Instagram</a></li>
+                  <li className="hover:text-[#ff583e] duration-300 mb-[10px]">
+                    <a href="https://m.youtube.com/@ICIFest_SKIT" target="blank">YouTube</a></li>
                 </ul>
               </div>
             </div>

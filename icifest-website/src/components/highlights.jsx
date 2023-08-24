@@ -23,12 +23,11 @@ const Highlight = () => {
             disableOnInteraction: false,
           }}
           className="-mt-[60px] hidden md:block lg:hidden xl:block"
-
           modules={[Pagination, Navigation, Autoplay]}
         >
           {image_list.map((image, index) => (
-            <SwiperSlide className=" overflow-hidden rounded-[20px]">
-              <div className="oevrflow-hidden"><img src={image} alt={index} className="w-[400px] h-[220px] rounded-[20px] hover:scale-110 duration-300" /></div>
+            <SwiperSlide className=" overflow-hidden rounded-[10px]">
+              <div className="oevrflow-hidden"><img src={image} alt={index} className="w-[400px] h-[220px] rounded-[10px] hover:scale-110 duration-300" /></div>
             </SwiperSlide>
           ))}
         </Swiper>
@@ -46,8 +45,8 @@ const Highlight = () => {
           modules={[Pagination, Navigation, Autoplay]}
         >
           {image_list.map((image, index) => (
-            <SwiperSlide className=" overflow-hidden rounded-[20px]">
-              <div className="oevrflow-hidden"><img src={image} alt={index} className="w-[400px] h-[220px] rounded-[20px] hover:scale-110 duration-300" /></div>
+            <SwiperSlide className=" overflow-hidden rounded-[10px]">
+              <div className="oevrflow-hidden"><img src={image} alt={index} className="w-[400px] h-[220px] rounded-[10px] hover:scale-110 duration-300" /></div>
             </SwiperSlide>
           ))}
         </Swiper>

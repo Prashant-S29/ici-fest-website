@@ -60,6 +60,7 @@ import tech2 from './tech2.png';
 import tech3 from './tech3.png';
 
 import bg_image from './bg_image.png';
+import bg_image1 from './bg_image_1.png';
 
 export {
     bg_video_desktop,
@@ -96,5 +97,5 @@ export {
     img102, img103,img104,
     team1, team2, team3, team4,
     tech2, tech3,
-    bg_image,
+    bg_image,bg_image1
 };
