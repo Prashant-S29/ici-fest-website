@@ -5,12 +5,6 @@ import { img103, img102, img104, scroll_down, team1, team2, team3, team4, tech3,
 
 const AboutTeam = () => {
 
-    // const [isHovered, setIsHovered] = useState(false);
-
-    // const handleHover = () => {
-    //     setIsHovered(!isHovered);
-    // };
-
     return (
         <>
 
@@ -24,7 +18,7 @@ const AboutTeam = () => {
                     <div>
                         <span className=" font-extrabold text-[30px] sm:text-[50px] lg:text-[80px] text-white" >ABOUT SKIT</span>
                     </div>
-                    <div className="flex justify-center" ><div className="w-[150px] sm:w-[250px] h-[5px] bg-[#ff583e] " /></div>
+                    <div className="flex justify-center" ><div className="w-[150px] sm:w-[250px] h-[5px] bg-[#ff583e] rounded-full " /></div>
                     <div className=" max-[320px]:mx-[20px] mx-[40px] lg:mx-[80px]  xl:mx-[210px]  bg-[#fff6]  max-[320px]:p-[10px] p-[20px] lg:p-[30px] rounded-[20px] 
                      backdrop-blur-[5px] mt-[20px] max:-[320px]:leading-[18px] leading-normal ">
                         <span className="text-black font-bold  max-[320px]:text-[12px]  text-[14px] sm:text-[12px] lg:text-[16px] xl:text-[18px] ">Swami Keshvanand Institute of Technology, Management & Gramothan (SKIT), inspired from the learnings of Swami Keshvanand, was established in the year 2000 by Technocrats and Managers Society for Advanced Learning and Gramothan. Today the institute is recognized as one of the centres of academic excellence in Northern India. Located in the Pink City Jaipur, which is a blend of traditional history and modern outlook, SKIT is putting in efforts for making industry ready engineers and managers through effective Industry-Institute Interface.</span>
@@ -33,6 +27,13 @@ const AboutTeam = () => {
 
                 </div>
             </div>
+
+            <div className="text-center mt-[20px]" ><span className="font-extrabold text-[48px]" >JAIPUR</span></div>
+            <div className="flex justify-center " ><div className="h-[6px] w-[120px] rounded-full bg-[#ff583e]" /></div>
+            <div>
+                
+            </div>
+
             <div>
                 <div className="text-center mt-[30px]"><span className="font-semibold uppercase text-[14px]" >
                     Meet The Team</span></div>
