@@ -58,6 +58,10 @@ const AboutTeam = () => {
                         <div className="text-center mt-[5px]"><span className="font-semibold">JANTAR MANTAR</span></div>
                     </div>
                 </div>
+
+                
+
+
             </div>
 
 
