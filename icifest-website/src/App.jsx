@@ -11,6 +11,7 @@ import Footer from "./components/footer";
 import Accommodation from "./components/accommodation"
 import TempReg from "./components/temp_regis";
 import AboutTeam from "./components/about_team";
+// import Gallery from "./components/gallery";
 
 // import JK from "./components/events_details/joistkwik";
 // import BA from "./components/events_details/bowlingalley";
@@ -58,7 +59,7 @@ const App = () => {
               <Route path="/accommodation" element={<Accommodation />} />
               <Route path="/registrations" element={<TempReg />} />
               <Route path="/aboutteam" element={<AboutTeam />} />
-              {/* <Route path="/teams" element={<Team />} /> */}
+              {/* <Route path="/gallery" element={<Gallery />} /> */}
               {/* <Route path="/joist-kwik" element={<JK />} />
                 <Route path="/bolwing-alley" element={<BA />} />
                 <Route path="/brick-o-brick" element={<BOB />} />

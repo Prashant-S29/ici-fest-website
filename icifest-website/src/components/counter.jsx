@@ -19,7 +19,7 @@ const Counter = () => {
                 <div className="flex bg-[#e5e5e5]  rounded-[20px] py-[15px] px-[25px] text-left max-[320px]:min-w-[100px] min-w-[140px]">
                     <div>
                         <div className=""><span className="text-[24px] lg:text-[36px] font-extrabold text-[#ff583e] leading-none" >
-                            1500+</span></div>
+                            1400+</span></div>
                         <div className=""><span className="text-[16px] lg:text-[22px] font-semibold text-black leading-5  " >Registration</span></div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ const Counter = () => {
                 <div className="hidden md:flex bg-[#e5e5e5]  rounded-[20px] py-[15px] px-[25px]  min-w-[140px] ">
                     <div className="">
                         <div className="">
-                            <span className="text-[24px]  lg:text-[36px] font-extrabold text-[#ff583e] leading-none " >200+</span>
+                            <span className="text-[24px]  lg:text-[36px] font-extrabold text-[#ff583e] leading-none " >190+</span>
                         </div>
                         <div className=""><span className="text-[16px] lg:text-[22px] font-semibold text-black leading-5  " >
                             Teams</span></div>
@@ -43,7 +43,7 @@ const Counter = () => {
 
                 <div className="flex  mt-[20px] sm:mt-0 bg-[#e5e5e5]  rounded-[20px] py-[15px] px-[25px] text-left max-[320px]:min-w-[100px] min-w-[140px]">
                     <div>
-                        <div className=""><span className="text-[24px] lg:text-[36px] font-extrabold text-[#ff583e] leading-none" >20+</span></div>
+                        <div className=""><span className="text-[24px] lg:text-[36px] font-extrabold text-[#ff583e] leading-none" >50+</span></div>
                         <div className=""><span className="text-[16px] lg:text-[22px] font-semibold text-black leading-5  " >Winners</span></div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ const Counter = () => {
                 <div className="flex md:hidden  mt-[20px] sm:mt-0 bg-[#e5e5e5]  rounded-[20px] py-[15px] px-[25px] text-left">
                     <div>
                         <div className=""><span className="text-[24px] lg:text-[36px] font-extrabold text-[#ff583e] leading-none" >
-                            200+
+                            190+
                         </span></div>
                         <div className=""><span className="text-[16px] lg:text-[22px] font-semibold text-black leading-5  " > Teams</span></div>
                     </div>
