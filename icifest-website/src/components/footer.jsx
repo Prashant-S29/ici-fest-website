@@ -33,9 +33,10 @@ const Footer = () => {
                 <img src={quicklink_icon} className="w-[24px] aspect-square rotate-90" /></span><span className=" font-bold text-[18px] ">Quick Links</span></div>
             <div className="text-[15px] mt-[5px] ">
               <ul className="text-[#fff] ml-[30px]">
-                <li className="hover:text-[#ff583e] duration-300 mb-[10px] text-[#fff]"><a href="">Gallery</a></li>
+                <li className="hover:text-[#ff583e] duration-300 mb-[10px] text-[#fff]">
+                <a href="https://drive.google.com/drive/folders/1y3hMlWEWZzpL_iN8EpH9gIPhBKFBIDQ4?usp=sharing" target="blank">Gallery</a></li>
                 <li className="hover:text-[#ff583e] duration-300 mb-[10px]"><Link to="/events">Events</Link></li>
-                <li className="hover:text-[#ff583e] duration-300 mb-[10px]"><Link to="/accommodation">Accommodation</Link></li>
+                {/* <li className="hover:text-[#ff583e] duration-300 mb-[10px]"><Link to="/accommodation">Accommodation</Link></li> */}
                 <li className="hover:text-[#ff583e] duration-300"><Link to='/registrations'>Register Now</Link></li>
               </ul>
             </div>

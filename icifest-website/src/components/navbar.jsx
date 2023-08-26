@@ -90,7 +90,7 @@ const Navbar = () => {
                                     <Link to="/">HOME</Link>
                                 </li>
                                 <li className="hover:border-b-[3px] duration-100 px-[10px] hover:pb-[8px] border-[#ff583e]">
-                                    <a href="">GALLERY</a>
+                                    <a href="https://drive.google.com/drive/folders/1y3hMlWEWZzpL_iN8EpH9gIPhBKFBIDQ4?usp=sharing" target="blank">GALLERY</a>
                                 </li>
                                 <li className="hover:border-b-[3px] duration-100 px-[10px] hover:pb-[8px] border-[#ff583e]">
                                     <Link to="/aboutteam">ABOUT</Link>
@@ -98,18 +98,18 @@ const Navbar = () => {
                                 <li className="hover:border-b-[3px] duration-100 px-[10px] hover:pb-[8px] border-[#ff583e]">
                                     <Link to="/events">EVENTS</Link>
                                 </li>
-                                <li className="hover:border-b-[3px] duration-100 px-[10px] hover:pb-[8px] border-[#ff583e]">
+                                {/* <li className="hover:border-b-[3px] duration-100 px-[10px] hover:pb-[8px] border-[#ff583e]">
                                     <Link to="/accommodation">ACCOMMODATION</Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <div >
                             <ul className="nav-menu flex xl:hidden ">
                                 <li className="nav-link"><a href="/">Home</a></li>
-                                <li className="nav-link"><a href="">Gallery</a></li>
+                                <li className="nav-link"><a href="https://drive.google.com/drive/folders/1y3hMlWEWZzpL_iN8EpH9gIPhBKFBIDQ4?usp=sharing" target="blank">Gallery</a></li>
                                 <li className="nav-link"><Link to="/aboutteam">About</Link></li>
                                 <li className="nav-link"><Link to="/events">Events</Link></li>
-                                <li className="nav-link"><Link to="/accommodation">Accommodation</Link></li>
+                                {/* <li className="nav-link"><Link to="/accommodation">Accommodation</Link></li> */}
                                 <li className="block md:hidden">
                                     <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[12px] lg:text-[14px]  self-center"><Link to='/registrations'>Register Now</Link></button>
                                 </li>

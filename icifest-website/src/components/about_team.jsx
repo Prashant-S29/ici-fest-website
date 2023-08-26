@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import { img103, img102, img104, scroll_down, team1, team2, team3, team4, tech3, tech2, one, two, three, four } from "../assets";
+import { img102, img104, team1, team2, team3, team4, tech3, tech2, one, two, three, four } from "../assets";
 
 const AboutTeam = () => {
 
@@ -23,7 +23,6 @@ const AboutTeam = () => {
                      backdrop-blur-[5px] mt-[20px] max:-[320px]:leading-[18px] leading-normal ">
                         <span className="text-black font-bold  max-[320px]:text-[12px]  text-[14px] sm:text-[12px] lg:text-[16px] xl:text-[18px] ">Swami Keshvanand Institute of Technology, Management & Gramothan (SKIT), inspired from the learnings of Swami Keshvanand, was established in the year 2000 by Technocrats and Managers Society for Advanced Learning and Gramothan. Today the institute is recognized as one of the centres of academic excellence in Northern India. Located in the Pink City Jaipur, which is a blend of traditional history and modern outlook, SKIT is putting in efforts for making industry ready engineers and managers through effective Industry-Institute Interface.</span>
                     </div>
-                    <div className="flex justify-center mt-[15px] animate-bounce  md:hidden"><img src={scroll_down} className="w-[20px] " /></div>
 
                 </div>
             </div>
@@ -31,8 +30,8 @@ const AboutTeam = () => {
             <div>
                 <div className="text-center mt-[20px]" ><span className="font-extrabold text-[48px]" >JAIPUR</span></div>
                 <div className="flex justify-center " ><div className="h-[6px] w-[120px] rounded-full bg-[#ff583e]" /></div>
-                <div className="text-center mx-[100px] mt-[30px]">
-                    <span className="font-semibold text-[18px]">The Pink City, Jaipur is considered as the first "planned" city in
+                <div className="text-center mx-[20px] md:mx-[120px] mt-[30px]">
+                    <span className="font-semibold  text-[14px] sm:text-[12px] lg:text-[16px] xl:text-[18px]">The Pink City, Jaipur is considered as the first "planned" city in
                         the Common Era. Renowned globally for its coloured gems, the capital
                         city of Rajasthan combines the allure of its ancient history of
                         marvellous forts, magnificent temples and gorgeous palaces with all

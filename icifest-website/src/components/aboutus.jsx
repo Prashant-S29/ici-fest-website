@@ -10,7 +10,6 @@ import { Link } from "react-router-dom";
 
 const About = () => {
 
-  // const support_image = [img13, img14, img15, img16, img18, img19, img20]
   const support_image = [
     {
       image: img13,
@@ -69,7 +68,7 @@ const About = () => {
       <div className="block xl:flex justify-left gap-[150px] -mt-[150px] md:mt-0">
         <div>
           <div>
-            <div><span className="text-[30px] md:text-[36px] font-extrabold">About <span className="text-[#ff583e]">ICI</span> FEST</span></div>
+            <div><span className="text-[30px] md:text-[36px] font-extrabold"><span className="text-[#ff583e]">ICI</span> FEST</span></div>
           </div>
           <div>
             <span className=" text-[14px] md:text-[18px]">The fest will aspire the young brains to showcase their skills and compete with others by participating in various technical events and workshop. Register today to make yourself stand out among all odds.</span>
@@ -93,7 +92,7 @@ const About = () => {
             <span className="text-[30px] md:text-[36px] font-extrabold">Highlights'<span className="text-[#ff583e]">22</span></span>
           </div>
           <Highlight />
-          <div className=" mt-[22px] flex justify-center items-center bg-[#ff583e] text-white hover:bg-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] px-[15px] md:px-[20px] py-[6px] md:py-[8px] text-[13px] md:text-[14px] rounded-[8px] w-fit font-semibold" ><button type="button" className="">View All</button></div>
+          <div className=" mt-[22px] flex justify-center items-center bg-[#ff583e] text-white hover:bg-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] px-[15px] md:px-[22px] py-[6px] md:py-[10px] text-[13px] md:text-[14px] rounded-[8px] w-fit font-semibold" ><button type="button" className="">View All</button></div>
         </div>
       </div>
 
