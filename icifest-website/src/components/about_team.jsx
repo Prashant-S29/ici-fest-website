@@ -7,9 +7,53 @@ const AboutTeam = () => {
 
     return (
         <>
+            <div className=" h-[72vh] flex justify-center items-center mt-[40px]">
+                <div className="w-full -z-10 h-full overflow-hidden hidden md:block">
+                    <div className="w-[150px] aspect-square absolute -bottom-[100px] about_box bg-[#ff583e4f]" />
+                    <div className="w-[80px] aspect-square absolute -bottom-[100px] about_box bg-[#ff583e4f] hidden xl:block left-[1300px]" />
+                    <div className="w-[100px] box1 aspect-square absolute -bottom-[100px] about_box bg-[#ff583e4f]
+                    left-[500px] " />
+                    <div className="w-[250px] box1  aspect-square absolute -bottom-[300px] about_box bg-[#ff583e4f]
+                    left-[1000px] hidden xl:block" />
+                    <div className="w-[60px]   aspect-square absolute -bottom-[100px] about_box bg-[#ff583e4f]
+                    left-[800px] hidden lg:block" />
+                    <div className="w-[30px] box2   aspect-square absolute -bottom-[100px] about_box bg-[#ff583e4f]
+                    left-[500px]" />
+                </div>
+                <div className="w-full -z-10 h-full overflow-hidden block md:hidden">
+                    <div className="w-[40px] aspect-square absolute -bottom-[100px] about_box bg-[#ff583e4f]" />
+                    <div className="w-[80px] aspect-square absolute -bottom-[100px] about_box bg-[#ff583e4f] hidden xl:block left-[75%]" />
+                    <div className="w-[60px] box1 aspect-square absolute -bottom-[100px] about_box bg-[#ff583e4f]
+                    left-[50%] " />
+                </div>
+                <div className="absolute">
+                    <div className="text-center">
+                        <span className=" font-extrabold text-[40px] sm:text-[50px] lg:text-[80px] " >
+                            ICI<span className="text-[#ff583e]"> FEST</span></span>
+                    </div>
+                    <div className="flex justify-center mb-[20px]">
+                        <div className="bg-[#ff583e]  w-[120px] h-[8px] md:w-[200px] md:h-[10px] rounded-[20px]" />
+                    </div>
+                    <div className=" text-center text-[14px] md:text-[16px] lg:text-[18px] font-semibold mx-[20px]  md:mx-[40px] lg:mx-[80px] max-[320px]:leading-[20px]   ">
+                        <div>
+                            <span>The ICI Fest has a special mission: to inspire young minds to show off their skills and go up against others by joining different technical, non technical events and workshops. Don't wait - rigister today to make yourself really stand out, even when faced with challenges. This Fest is all about energetic and excited people coming together.
 
+                                When you register, you're taking a step towards an awesome chance. You'll get to be part of cool events and workshops that are all about technology. Plus, you can test your abilities and see how you do compared to others.
 
-            <div className="flex justify-start items-center ">
+                                Imagine being in a place where everyone is enthusiastic and ready to share their ideas. That's what this Fest is about - lots of people who are excited and full of energy.
+
+                                So why not be a part of it? Join now and get ready to shine bright among the rest.</span>
+                        </div>
+                        <div className="flex justify-center gap-[20px] mt-[20px] items-center">
+                            <div ><button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] px-[18px] py-[9px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[12px] lg:text-[14px]  self-center">Register Now</button></div>
+                            <div><button className="bg-[#fff] ring-1 ring-black px-[19px] py-[8px] md:py-[9px]  
+                        lg:py-[10px] lg:px-[18px] rounded-[8px] text-[12px] lg:text-[14px]  self-center">Browse all Events</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="flex justify-start items-center mt-[50px] ">
                 <div className=" w-full  overflow-hidden bg-cover bg-center" >
                     <img src={img102} className="w-full hidden md:block" />
                     <img src={img104} className=" w-full h-[82vh] block md:hidden " />
@@ -58,7 +102,7 @@ const AboutTeam = () => {
                     </div>
                 </div>
 
-                
+
 
 
             </div>

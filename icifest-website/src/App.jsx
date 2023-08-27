@@ -44,7 +44,7 @@ const App = () => {
             autoPlay
             muted
             onEnded={handleVideoEnd}
-            className="mt-[10%] w-full h-full block md:hidden"
+            className="mt-[8%] w-full h-full block md:hidden"
           >
             <source src={bg_video_mobile} type="video/mp4" />
           </video>
