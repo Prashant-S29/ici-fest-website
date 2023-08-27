@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 import { img102, img104, team1, team2, team3, team4, tech3, tech2, one, two, three, four } from "../assets";
@@ -45,9 +46,11 @@ const AboutTeam = () => {
                                 So why not be a part of it? Join now and get ready to shine bright among the rest.</span>
                         </div>
                         <div className="flex justify-center gap-[20px] mt-[20px] items-center">
-                            <div ><button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] px-[18px] py-[9px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[12px] lg:text-[14px]  self-center">Register Now</button></div>
+                            <div ><button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] px-[18px] py-[9px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[12px] lg:text-[14px]  self-center">
+                            <Link to='/registrations'>Register Now</Link></button></div>
                             <div><button className="bg-[#fff] ring-1 ring-black px-[19px] py-[8px] md:py-[9px]  
-                        lg:py-[10px] lg:px-[18px] rounded-[8px] text-[12px] lg:text-[14px]  self-center">Browse all Events</button></div>
+                        lg:py-[10px] lg:px-[18px] rounded-[8px] text-[12px] lg:text-[14px]  self-center">
+                        <Link to="/events">Browse all events</Link></button></div>
                         </div>
                     </div>
                 </div>
