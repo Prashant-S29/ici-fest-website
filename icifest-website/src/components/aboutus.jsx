@@ -92,7 +92,7 @@ const About = () => {
             <span className="text-[30px] md:text-[36px] font-extrabold">Highlights'<span className="text-[#ff583e]">22</span></span>
           </div>
           <Highlight />
-          <div className=" mt-[22px] flex justify-center items-center bg-[#ff583e] text-white hover:bg-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] px-[15px] md:px-[22px] py-[6px] md:py-[10px] text-[13px] md:text-[14px] rounded-[8px] w-fit font-semibold" ><button type="button" className="">View All</button></div>
+          <div className=" mt-[22px] flex justify-center items-center bg-[#ff583e] text-white hover:bg-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] px-[15px] md:px-[22px] py-[6px] md:py-[10px] text-[13px] md:text-[14px] rounded-[8px] w-fit font-semibold" ><button type="button" className=""><a href="https://drive.google.com/drive/folders/1y3hMlWEWZzpL_iN8EpH9gIPhBKFBIDQ4?usp=sharing" target="blank">View All</a></button></div>
         </div>
       </div>
 

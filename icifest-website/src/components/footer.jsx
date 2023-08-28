@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="text-[15px] mt-[5px] ">
               <ul className="text-[#fff] ml-[30px]">
                 <li className="hover:text-[#ff583e] duration-300 mb-[10px] text-[#fff]">
-                <a href="https://drive.google.com/drive/folders/1y3hMlWEWZzpL_iN8EpH9gIPhBKFBIDQ4?usp=sharing" target="blank">Gallery</a></li>
+                  <a href="https://drive.google.com/drive/folders/1y3hMlWEWZzpL_iN8EpH9gIPhBKFBIDQ4?usp=sharing" target="blank">Gallery</a></li>
                 <li className="hover:text-[#ff583e] duration-300 mb-[10px]"><Link to="/events">Events</Link></li>
                 {/* <li className="hover:text-[#ff583e] duration-300 mb-[10px]"><Link to="/accommodation">Accommodation</Link></li> */}
                 <li className="hover:text-[#ff583e] duration-300"><Link to='/registrations'>Register Now</Link></li>
@@ -71,13 +71,13 @@ const Footer = () => {
             <div className="text-[15px] mt-[10px] ml-[28px] " >
               <ul className="text-[#fff]">
                 <li className="hover:text-[#ff583e] duration-300  mb-[10px]">Kunal Sharma -
-                  <a href='https://wa.me/9413861055' target="blank"> 9413861055</a></li>
+                  <a href='https://wa.me/9413861055' target="blank"> +91 9413861055</a></li>
                 <li className="hover:text-[#ff583e] duration-300  mb-[10px]">Vishal Bansiwal -
-                  <a href='https://wa.me/9783140934' target="blank"> 9783140934</a></li>
+                  <a href='https://wa.me/9783140934' target="blank"> +91 9783140934</a></li>
                 <li className="hover:text-[#ff583e] duration-300  mb-[10px]">Rohit Lamba -
-                  <a href='https://wa.me/8107375376' target="blank"> 8107375376</a></li>
+                  <a href='https://wa.me/8107375376' target="blank"> +91 8107375376</a></li>
                 <li className="hover:text-[#ff583e] duration-300  mb-[10px]">Kritika Meena -
-                  <a href='https://wa.me/8619582281' target="blank"> 8619582281</a></li>
+                  <a href='https://wa.me/8619582281' target="blank"> +91 8619582281</a></li>
                 <li className="hover:text-[#ff583e] duration-300"><a href="mailto:codeprashant29@gmail.com">Report Bug</a></li>
               </ul>
             </div>
@@ -141,9 +141,13 @@ const Footer = () => {
               <div className="text-[13px] md:text-[15px] mt-[3px] md:mt-[5px]  ml-[24px] " >
                 <ul className="text-[#fff]">
                   <li className="hover:text-[#ff583e] duration-300">Kunal Sharma -
-                    <a href='https://wa.me/9413861055'>9413861055</a></li>
-                  <li className="hover:text-[#ff583e] duration-300">Vishal Bansiwal - 9783140934</li>
-                  <li className="hover:text-[#ff583e] duration-300">Rohit Lamba - 8107375376</li>
+                    <a href='https://wa.me/9413861055'>+91 9413861055</a></li>
+                  <li className="hover:text-[#ff583e] duration-300">Vishal Bansiwal -
+                    <a href='https://wa.me/9783140934'>+91 9783140934</a></li>
+                  <li className="hover:text-[#ff583e] duration-300">Rohit Lamba -
+                    <a href='https://wa.me/8107375376'>+91 8107375376</a></li>
+                  <li className="hover:text-[#ff583e] duration-300">Kritika Meena -
+                    <a href='https://wa.me/8619582281'>+91 8619582281</a></li>
                   <li className="hover:text-[#ff583e] duration-300"><a href="mailto:codeprashant29@gmail.com">Report Bug</a></li>
                 </ul>
               </div>

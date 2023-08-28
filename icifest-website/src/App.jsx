@@ -10,7 +10,7 @@ import FestEvent from "./components/events";
 import Footer from "./components/footer";
 import Accommodation from "./components/accommodation"
 import TempReg from "./components/temp_regis";
-import AboutTeam from "./components/about_team";
+import AboutTeam from "./components/aboutteam";
 // import Gallery from "./components/gallery";
 
 // import JK from "./components/events_details/joistkwik";
@@ -58,6 +58,7 @@ const App = () => {
               <Route path="/events" element={<FestEvent />} />
               <Route path="/accommodation" element={<Accommodation />} />
               <Route path="/registrations" element={<TempReg />} />
+              {/* <Route path="/aboutteam" element={<AboutTeam />} /> */}
               <Route path="/aboutteam" element={<AboutTeam />} />
               {/* <Route path="/gallery" element={<Gallery />} /> */}
               {/* <Route path="/joist-kwik" element={<JK />} />

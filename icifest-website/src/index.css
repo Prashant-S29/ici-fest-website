@@ -248,16 +248,20 @@
 }
 
 .about_box{
-    animation: updown 5s infinite linear;
+    animation: updown 18s infinite linear;
 }
 
 .box1{
     animation-delay: 1s;
-    animation-duration: 6s;
+    animation-duration: 10s;
 }
 
 .box2{
-    animation-duration: 7s;
+    animation-duration: 8s;
+}
+
+.box3{
+    animation-delay: 3s
 }
 
 @keyframes updown {
