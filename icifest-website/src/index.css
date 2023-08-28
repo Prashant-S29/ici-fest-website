@@ -237,7 +237,7 @@
 }
 
 .loaderWrapper {
-    
+
     position: absolute;
     top: 0;
     bottom: 0;
@@ -247,29 +247,30 @@
     background-color: black;
 }
 
-.about_box{
+.about_box {
     animation: updown 18s infinite linear;
 }
 
-.box1{
+.box1 {
     animation-delay: 1s;
     animation-duration: 10s;
 }
 
-.box2{
+.box2 {
     animation-duration: 8s;
 }
 
-.box3{
+.box3 {
     animation-delay: 3s
 }
 
 @keyframes updown {
-    from{
+    from {
         border-radius: 0;
         rotate: 0;
     }
-    to{
+
+    to {
         bottom: 1000px;
         border-radius: 100px;
         rotate: 150deg;
