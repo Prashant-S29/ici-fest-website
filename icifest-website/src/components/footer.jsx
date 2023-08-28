@@ -71,13 +71,13 @@ const Footer = () => {
             <div className="text-[15px] mt-[10px] ml-[28px] " >
               <ul className="text-[#fff]">
                 <li className="hover:text-[#ff583e] duration-300  mb-[10px]">Kunal Sharma -
-                  <a href='https://wa.me/9413861055' target="blank"> +91 9413861055</a></li>
+                  <a href='https://wa.me/9413861055' target="blank"> &nbsp;+91 9413861055</a></li>
                 <li className="hover:text-[#ff583e] duration-300  mb-[10px]">Vishal Bansiwal -
-                  <a href='https://wa.me/9783140934' target="blank"> +91 9783140934</a></li>
+                  <a href='https://wa.me/9783140934' target="blank"> &nbsp;+91 9783140934</a></li>
                 <li className="hover:text-[#ff583e] duration-300  mb-[10px]">Rohit Lamba -
-                  <a href='https://wa.me/8107375376' target="blank"> +91 8107375376</a></li>
+                  <a href='https://wa.me/8107375376' target="blank"> &nbsp;+91 8107375376</a></li>
                 <li className="hover:text-[#ff583e] duration-300  mb-[10px]">Kritika Meena -
-                  <a href='https://wa.me/8619582281' target="blank"> +91 8619582281</a></li>
+                  <a href='https://wa.me/8619582281' target="blank"> &nbsp;+91 8619582281</a></li>
                 <li className="hover:text-[#ff583e] duration-300"><a href="mailto:codeprashant29@gmail.com">Report Bug</a></li>
               </ul>
             </div>
@@ -141,13 +141,13 @@ const Footer = () => {
               <div className="text-[13px] md:text-[15px] mt-[3px] md:mt-[5px]  ml-[24px] " >
                 <ul className="text-[#fff]">
                   <li className="hover:text-[#ff583e] duration-300">Kunal Sharma -
-                    <a href='https://wa.me/9413861055'>+91 9413861055</a></li>
+                    <a href='https://wa.me/9413861055'>&nbsp;+91 9413861055</a></li>
                   <li className="hover:text-[#ff583e] duration-300">Vishal Bansiwal -
-                    <a href='https://wa.me/9783140934'>+91 9783140934</a></li>
+                    <a href='https://wa.me/9783140934'>&nbsp;+91 9783140934</a></li>
                   <li className="hover:text-[#ff583e] duration-300">Rohit Lamba -
-                    <a href='https://wa.me/8107375376'>+91 8107375376</a></li>
+                    <a href='https://wa.me/8107375376'>&nbsp;+91 8107375376</a></li>
                   <li className="hover:text-[#ff583e] duration-300">Kritika Meena -
-                    <a href='https://wa.me/8619582281'>+91 8619582281</a></li>
+                    <a href='https://wa.me/8619582281'>&nbsp;+91 8619582281</a></li>
                   <li className="hover:text-[#ff583e] duration-300"><a href="mailto:codeprashant29@gmail.com">Report Bug</a></li>
                 </ul>
               </div>
