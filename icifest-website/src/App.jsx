@@ -11,11 +11,14 @@ import Accommodation from "./components/accommodation"
 import TempReg from "./components/temp_regis";
 import AboutTeam from "./components/aboutteam";
 
-// import JK from "./components/events_details/joistkwik";
-// import BA from "./components/events_details/bowlingalley";
-// import BOB from "./components/events_details/brickobrick";
-// import CW from "./components/events_details/cyclothon";
-// import SH from "./components/events_details/scavenger";
+import JK from "./components/events_details/joistkwik";
+import BA from "./components/events_details/bowlingalley";
+import BOB from "./components/events_details/brickobrick";
+import CW from "./components/events_details/cyclothon";
+import SH from "./components/events_details/scavenger";
+import WS from "./components/events_details/workshop";
+import CIVILWAR from "./components/events_details/civilwar";
+import CP from "./components/events_details/cementpottery";
 
 const App = () => {
   const [showVideo, setShowVideo] = useState(true);
@@ -57,11 +60,14 @@ const App = () => {
               <Route path="/accommodation" element={<Accommodation />} />
               <Route path="/registrations" element={<TempReg />} />
               <Route path="/aboutteam" element={<AboutTeam />} />
-              {/* <Route path="/joist-kwik" element={<JK />} />
-                <Route path="/bolwing-alley" element={<BA />} />
-                <Route path="/brick-o-brick" element={<BOB />} />
-                <Route path="/cyclothon-walkathon" element={<CW />} />
-                <Route path="/scanvenger-hunt" element={<SH />} /> */}
+              <Route path="/joist-kwik" element={<JK />} />
+              <Route path="/bolwing-alley" element={<BA />} />
+              <Route path="/brick-o-brick" element={<BOB />} />
+              <Route path="/cyclothon-walkathon" element={<CW />} />
+              <Route path="/scanvenger-hunt" element={<SH />} />
+              <Route path="/civil-war" element={<CIVILWAR />} />
+              <Route path="/workshop" element={<WS />} />
+              <Route path="/cement-pottery" element={<CP />} />
             </Routes>
             <Footer />
           </>

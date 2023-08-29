@@ -30,7 +30,7 @@ const ButtonInfo = [
 
 ];
 
-const JK = () => {
+const CIVILWAR = () => {
     const [activeButton, setActiveButton] = useState(0);
 
     const handleButtonClick = (index) => {
@@ -44,7 +44,7 @@ const JK = () => {
             <div className="flex justify-center">
                 <div className=" mx-[10px] md:mx-[60px] lg:mx-[200px] w-full">
                     <div className="bg-[#ffb4a7] px-[40px] py-[30px] rounded-[30px] text-center" >
-                        <div><span className="font-extrabold text-[38px] md:text-[50px]" >JOIST KWIK</span></div>
+                        <div><span className="font-extrabold text-[38px] md:text-[50px]" >CIVIL WAR</span></div>
                         <div className="flex justify-center"><div className="w-[100px] h-[4px] bg-[#ff583e]  " /></div>
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
                             <div><span>Date - 15<sup>th </sup>September 2023</span></div>
@@ -53,8 +53,8 @@ const JK = () => {
                         <div className="font-bold text-[22px] md:text-[28px] leading-[30px] md:leading-none mt-[10px] md:mt-0 "><span>Registration Fee - ₹200 per team</span></div>
                         <div className='flex justify-center mt-[20px]'>
                             <div className='bg-white rounded-[50px] flex justify-center gap-[30px] p-[5px]'>
-                                <div><Link to='/civil-war' ><img src={next} className='w-[25px] md:w-[30px]  rotate-180  ' /></Link></div>
-                                <div><Link to='/bolwing-alley' ><img src={next} className='w-[25px] md:w-[30px]    ' /></Link></div>
+                                <div><Link to='/scanvenger-hunt' ><img src={next} className='w-[25px] md:w-[30px]  rotate-180  ' /></Link></div>
+                                <div><Link to='/joist-kwik' ><img src={next} className='w-[25px] md:w-[30px]    ' /></Link></div>
                             </div>
                         </div>
                     </div>
@@ -116,4 +116,4 @@ const JK = () => {
     );
 };
 
-export default JK;
+export default CIVILWAR;

@@ -68,6 +68,8 @@ import two from './2.png';
 import three from './3.png';
 import four from './4.png';
 
+import next from './next.png';
+
 export {
     bg_video_desktop,
     bg_video_mobile,
@@ -105,4 +107,5 @@ export {
     tech1, tech2, tech3,
     bg_image,bg_image1,
     one, two, three, four,
+    next,
 };

@@ -18,7 +18,7 @@ const FestEvent = () => {
             <div className="absolute" ><span className="font-extrabold text-white md:text-[32px] text-[28px] uppercase
              tracking-wide ">JOIST KWIK</span></div>
           </div>
-          {/* <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/joist-kwik' >Resigter Now</Link></span></div> */}
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/joist-kwik' >Register Now</Link></span></div>
         </div>
 
         <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
@@ -27,7 +27,7 @@ const FestEvent = () => {
             <div className="absolute" ><span className="font-extrabold text-white md:text-[32px] text-[28px] uppercase
             tracking-wide">Bowling Alley</span></div>
           </div>
-          {/* <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/bolwing-alley' >Resigter Now</Link></span></div> */}
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/bolwing-alley' >Register Now</Link></span></div>
         </div>
 
         <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
@@ -36,7 +36,7 @@ const FestEvent = () => {
             <div className="absolute" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
             tracking-wide">Brick-O-Brick</span></div>
           </div>
-          {/* <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/brick-o-brick' >Resigter Now</Link></span></div> */}
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/brick-o-brick' >Register Now</Link></span></div>
         </div>
 
         <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
@@ -45,7 +45,7 @@ const FestEvent = () => {
             <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
             tracking-wide">Cement Pottery</span></div>
           </div>
-          {/* <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/scanvenger-hunt' >Resigter Now</Link></span></div> */}
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/cement-pottery' >Register Now</Link></span></div>
         </div>
 
         <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
@@ -54,7 +54,7 @@ const FestEvent = () => {
             <div className="absolute text-center " ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
             tracking-wide">Cyclothon & <br />Walkathon</span></div>
           </div>
-          {/* <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/cyclothon-walkathon' >Resigter Now</Link></span></div> */}
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/cyclothon-walkathon' >Register Now</Link></span></div>
         </div>
 
         <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
@@ -63,7 +63,7 @@ const FestEvent = () => {
             <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
             tracking-wide">WORKSHOP</span></div>
           </div>
-          {/* <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/scanvenger-hunt' >Resigter Now</Link></span></div> */}
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/workshop' >Register Now</Link></span></div>
         </div>
 
         <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
@@ -72,7 +72,7 @@ const FestEvent = () => {
             <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
             tracking-wide">Scavenger <br />Hunt</span></div>
           </div>
-          {/* <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/scanvenger-hunt' >Resigter Now</Link></span></div> */}
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/scanvenger-hunt' >Register Now</Link></span></div>
         </div>
 
         <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
@@ -81,7 +81,7 @@ const FestEvent = () => {
             <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
             tracking-wide">CIVIL WAR</span></div>
           </div>
-          {/* <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/scanvenger-hunt' >Resigter Now</Link></span></div> */}
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/civil-war ' >Register Now</Link></span></div>
         </div>
 
       </div>
