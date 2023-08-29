@@ -1,5 +1,4 @@
 import React from "react";
-
 import Marquee from 'react-double-marquee';
 
 const Timeline = () => {
@@ -17,7 +16,6 @@ const Timeline = () => {
           speed='0.08'
           direction="left"
         >
-
           <span>&nbsp; &nbsp;Timelines for FEST'<span className="text-[#ff583e]">23&nbsp;</span>are coming soon.&nbsp; &nbsp;</span>
           <span>&nbsp; &nbsp;Timelines for FEST'<span className="text-[#ff583e]">23&nbsp;</span>are coming soon.&nbsp; &nbsp;</span>
           <span>&nbsp; &nbsp;Timelines for FEST'<span className="text-[#ff583e]">23&nbsp;</span>are coming soon.&nbsp; &nbsp;</span>

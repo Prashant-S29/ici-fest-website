@@ -8,7 +8,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-
 const Highlight = () => {
   const image_list = [a,b,c,d,e,f,g,h,i,j]
   return (
@@ -51,7 +50,6 @@ const Highlight = () => {
           ))}
         </Swiper>
 
-        
         <Swiper
           slidesPerView={1}
           spaceBetween={10}
@@ -70,9 +68,7 @@ const Highlight = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        
       </div>
-      
     </>
   )
 }

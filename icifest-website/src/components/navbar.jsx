@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import { skit_logo, ici_logo } from "../assets";
 import useHamburgerMenu from "./hamburger";
@@ -40,7 +40,6 @@ const Navbar = () => {
         <>
 
             <header className={`w-full flex justify-center pt-[10px] pr-[15px] pl-[15px] min-[375px]:pr-[25px] min-[375px]:pl-[25px] pb-[10px] sticky top-0 z-10 duration-200 ${divClass}`}>
-
                 <nav className="w-full flex justify-between items-center">
                     <div className="flex items-center ">
                         <div className="flex items-center gap-2 hamburger">
@@ -52,33 +51,27 @@ const Navbar = () => {
                             <div className="flex gap-[20px] items-center">
                                 <div>
                                     <div className="flex justify-center text-center"><img src={skit_logo} className={`duration-300  ${imgSize}`} /></div>
-
                                     <div className="text-center hidden md:block">
                                         <span className={`duration-300 ${imgSize}`} >Swami Keshvanand Institute of</span>
                                     </div>
                                     <div className="text-center hidden md:block  -mt-[5px]">
                                         <span className={`duration-300 ${imgSize}`} >Technology, M & G, Jaipur</span>
                                     </div>
-
                                     <div className="text-center  block md:hidden leading-none ">
                                         <span className={`duration-300 ${imgSize}`} >Swami Keshvanand Institute of Technology, M & G, Jaipur</span>
                                     </div>
-
                                 </div>
                                 <div className="mt-[4px] md:mt-[8px]">
                                     <div className="flex justify-center" ><img src={ici_logo} className={`duration-300 ${imgSize}`} /></div>
-
                                     <div className=" text-center hidden md:block">
                                         <span className={`duration-300 ${imgSize}`} >Indian Concrete Institute</span>
                                     </div>
                                     <div className="text-center hidden md:block -mt-[5px]">
                                         <span className={`duration-300 ${imgSize}`} >Rajasthan State Center</span>
                                     </div>
-
                                     <div className="text-center mt-[2px] md:mt-0 block md:hidden leading-none">
                                         <span className={`duration-300 ${imgSize}`} >Indian Concrete Institute Rajasthan State Center</span>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -98,9 +91,6 @@ const Navbar = () => {
                                 <li className="hover:border-b-[3px] duration-100 px-[10px] hover:pb-[8px] border-[#ff583e]">
                                     <Link to="/events">EVENTS</Link>
                                 </li>
-                                {/* <li className="hover:border-b-[3px] duration-100 px-[10px] hover:pb-[8px] border-[#ff583e]">
-                                    <Link to="/accommodation">ACCOMMODATION</Link>
-                                </li> */}
                             </ul>
                         </div>
                         <div >
@@ -109,7 +99,6 @@ const Navbar = () => {
                                 <li className="nav-link"><a href="https://drive.google.com/drive/folders/1y3hMlWEWZzpL_iN8EpH9gIPhBKFBIDQ4?usp=sharing" target="blank">Gallery</a></li>
                                 <li className="nav-link"><Link to="/aboutteam">About</Link></li>
                                 <li className="nav-link"><Link to="/events">Events</Link></li>
-                                {/* <li className="nav-link"><Link to="/accommodation">Accommodation</Link></li> */}
                                 <li className="block md:hidden">
                                     <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[12px] lg:text-[14px]  self-center"><Link to='/registrations'>Register Now</Link></button>
                                 </li>
@@ -118,7 +107,6 @@ const Navbar = () => {
                         <div className="w-[0.5px] mr-[25px] ml-[25px] h-[30px] bg-black hidden xl:block " />
                         <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[12px] lg:text-[16px] self-center hidden md:block"><Link to='/registrations'>Register Now</Link></button>
                     </div>
-
                 </nav>
             </header>
         </>

@@ -56,6 +56,7 @@ import team2 from './team2.png';
 import team3 from './team3.png';
 import team4 from './team4.png';
 
+import tech1 from './tech1.png';
 import tech2 from './tech2.png';
 import tech3 from './tech3.png';
 
@@ -101,7 +102,7 @@ export {
     a,b,c,d,e,f,g,h,i,j,
     img102, img103,img104,
     team1, team2, team3, team4,
-    tech2, tech3,
+    tech1, tech2, tech3,
     bg_image,bg_image1,
     one, two, three, four,
 };

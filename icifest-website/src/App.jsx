@@ -5,13 +5,11 @@ import { bg_video_desktop, bg_video_mobile } from "./assets";
 
 import Navbar from "./components/navbar";
 import Mainpage from "./components/mainpage";
-// import Team from "./teams";
 import FestEvent from "./components/events";
 import Footer from "./components/footer";
 import Accommodation from "./components/accommodation"
 import TempReg from "./components/temp_regis";
 import AboutTeam from "./components/aboutteam";
-// import Gallery from "./components/gallery";
 
 // import JK from "./components/events_details/joistkwik";
 // import BA from "./components/events_details/bowlingalley";
@@ -58,9 +56,7 @@ const App = () => {
               <Route path="/events" element={<FestEvent />} />
               <Route path="/accommodation" element={<Accommodation />} />
               <Route path="/registrations" element={<TempReg />} />
-              {/* <Route path="/aboutteam" element={<AboutTeam />} /> */}
               <Route path="/aboutteam" element={<AboutTeam />} />
-              {/* <Route path="/gallery" element={<Gallery />} /> */}
               {/* <Route path="/joist-kwik" element={<JK />} />
                 <Route path="/bolwing-alley" element={<BA />} />
                 <Route path="/brick-o-brick" element={<BOB />} />

@@ -14,7 +14,6 @@
 
 .about_font {
     font-family: system-ui;
-    /* -webkit-text-stroke-width: 2px; */
     font-weight: bolder;
 }
 
@@ -23,7 +22,6 @@
     font-weight: bolder;
     font-size: 42px;
 }
-
 
 .bg_div {
     position: fixed;
@@ -37,7 +35,6 @@
 
 .scrolling {
     background-color: white;
-    /* Change to your desired color */
 }
 
 
@@ -50,7 +47,6 @@
     background-color: rgba(255, 255, 255, 0.5) !important;
     backdrop-filter: blur(20px) !important;
     -webkit-backdrop-filter: blur(20px) !important;
-    /* background-color: white; */
     color: black;
     font-weight: 500;
 }

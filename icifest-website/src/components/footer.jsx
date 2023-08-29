@@ -8,10 +8,7 @@ const Footer = () => {
   return (
     <>
       <div className="bg-black text-white mt-[50px] mx-[20px]  max-[320px]:mx-[10px] max-[320px]:mb-[10px] xl:mx-[40px] p-[20px] rounded-[20px] mb-[20px] xl:mb-[20px] ">
-        {/* <div><span className="text-[30px] md:text-[36px] about_font">ICI Fest'<span className="text-[#ff583e]" >23</span></span></div> */}
         <div><img src={mainlogo} className="w-[300px]" /></div>
-
-
         <div className="hidden lg:flex gap-[40px] xl:gap-[162px] mt-[20px]">
           <div className="mt-[5px]">
             <div className="mb-[10px] flex items-center gap-1"><span>
@@ -36,7 +33,6 @@ const Footer = () => {
                 <li className="hover:text-[#ff583e] duration-300 mb-[10px] text-[#fff]">
                   <a href="https://drive.google.com/drive/folders/1y3hMlWEWZzpL_iN8EpH9gIPhBKFBIDQ4?usp=sharing" target="blank">Gallery</a></li>
                 <li className="hover:text-[#ff583e] duration-300 mb-[10px]"><Link to="/events">Events</Link></li>
-                {/* <li className="hover:text-[#ff583e] duration-300 mb-[10px]"><Link to="/accommodation">Accommodation</Link></li> */}
                 <li className="hover:text-[#ff583e] duration-300"><Link to='/registrations'>Register Now</Link></li>
               </ul>
             </div>

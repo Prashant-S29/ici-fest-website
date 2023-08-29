@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import { img102, img104, team1, team2, team3, team4, tech3, tech2, one, two, three, four } from "../assets";
+import { img102, img104, team1, team2, team3, team4, tech1, tech3, tech2, one, two, three, four } from "../assets";
 
 
 const AboutTeam = () => {
@@ -188,10 +188,10 @@ const AboutTeam = () => {
                             <div className="flex flex-wrap sm:gap-0 md:gap-8 lg:gap-0 justify-center lg:justify-evenly mt-[40px] ">
                                 <div className=" overflow-hidden team-photo  rounded-[20px]">
                                     <div className="w-[250px] h-[300px] bg-[#c7c7c7]  overflow-hidden ">
-                                        <img src={team3} className=" w-full   " />
+                                        <img src={tech1} className=" w-full   " />
                                     </div>
                                     <div className="p-[10px]  text-center">
-                                        <div><span className="font-semibold " >Kunal Sharma</span></div>
+                                        <div><span className="font-semibold " >Hardik Sharma</span></div>
                                         <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
                                     </div>
                                 </div>
