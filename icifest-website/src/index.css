@@ -247,6 +247,11 @@
     animation: updown 18s infinite linear;
 }
 
+.about_box2{
+    animation: updown2 18s infinite linear;
+
+}
+
 .box1 {
     animation-delay: 1s;
     animation-duration: 10s;
@@ -258,6 +263,10 @@
 
 .box3 {
     animation-delay: 3s
+}
+
+.box4{
+    animation-duration: 20s;
 }
 
 @keyframes updown {
@@ -272,3 +281,39 @@
         rotate: 150deg;
     }
 }
+
+@keyframes updown2 {
+    from {
+        border-radius: 0;
+        rotate: 0;
+    }
+
+    to {
+        top: 1000px;
+        border-radius: 100px;
+        rotate: 150deg;
+    }
+}
+
+.clicked{
+    rotate: 180deg;
+    transition: 0.5s ;
+}
+
+.circle1{
+    animation: ltr 7s infinite linear ;
+}
+
+@keyframes ltr {
+    from{
+        top: -500px;
+        border-radius: 0;
+        rotate: 0;
+    }
+    to{
+        top: 120%;
+        border-radius: 100%;
+        rotate: 95deg;
+    }
+}
+

@@ -39,7 +39,7 @@ const Navbar = () => {
     return (
         <>
 
-            <header className={`w-full flex justify-center pt-[10px] pr-[15px] pl-[15px] min-[375px]:pr-[25px] min-[375px]:pl-[25px] pb-[10px] sticky top-0 z-10 duration-200 ${divClass}`}>
+            <header className={`w-full flex justify-center pt-[10px] pr-[15px] pl-[15px] min-[375px]:pr-[25px] min-[375px]:pl-[25px] pb-[10px] sticky top-0 z-10 duration-200 ${divClass} z-50 `}>
                 <nav className="w-full flex justify-between items-center">
                     <div className="flex items-center ">
                         <div className="flex items-center gap-2 hamburger">
