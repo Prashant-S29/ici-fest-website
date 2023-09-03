@@ -1,34 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { next } from '../../assets';
 
-const ButtonInfo = [
-    {
-        id: 1,
-        text: 'ABOUT',
-        desc: 'This is about section',
-        participation: "In teams with 4 members each.",
-        problem: "COMING SOON",
-        material: "123456789",
-    },
-    {
-        id: 2,
-        text: 'STRUCTURE',
-        desc: 'This is structure section',
-        participation: "In teams with 4 members each.",
-        problem: "COMING SOON",
-        material: "123456789",
-    },
-    {
-        id: 3,
-        text: 'JUDGEMENT CRITERIA',
-        desc: 'This is judgement section',
-        participation: "In teams with 4 members each.",
-        problem: "COMING SOON",
-        material: "123456789",
-    },
+import { bob_img, joist_img } from '../../assets';
 
+
+const materialData = [
+    { material: 'Flat Ice-Cream Sticks', quantity: '50' },
+    { material: 'Adhesive Glue', quantity: 'As required' },
+    { material: 'Ruler, Paper Clips etc', quantity: '-' },
 ];
+
 
 const JK = () => {
     const [activeButton, setActiveButton] = useState(0);
@@ -43,20 +24,22 @@ const JK = () => {
 
             <div className="flex justify-center">
                 <div className=" mx-[10px] md:mx-[60px] lg:mx-[200px] w-full">
-                    <div className="bg-[#ffb4a7] px-[40px] py-[30px] rounded-[30px] text-center" >
+                    <div className="bg-[#ffb4a7] px-[20px] md:px-[40px] py-[30px] rounded-[30px] text-center" >
                         <div><span className="font-extrabold text-[38px] md:text-[50px]" >JOIST KWIK</span></div>
                         <div className="flex justify-center"><div className="w-[100px] h-[4px] bg-[#ff583e]  " /></div>
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
-                            <div><span>Date - 15<sup>th </sup>September 2023</span></div>
-                            <div><span>Time - 10:00 AM onwards</span></div>
+                            <div><span>Date</span></div>
+                            <div><span>Round 1 - 15<sup>th </sup>September 2023</span></div>
+                            <div><span>Round 2 - 16<sup>th </sup>September 2023</span></div>
+                            <div className='mt-[10px]'><span>Time</span></div>
+                            <div><span>Round 1 - 11:30 AM to 01:30 PM</span></div>
+                            <div><span>Round 2 - 08:30 AM to 11:00 AM</span></div>
+                            <div className='mt-[10px]'><span>Venue</span></div>
+                            <div><span>Tech zone in football ground</span></div>
                         </div>
-                        <div className="font-bold text-[22px] md:text-[28px] leading-[30px] md:leading-none mt-[10px] md:mt-0 "><span>Registration Fee - ₹200 per team</span></div>
-                        <div className='flex justify-center mt-[20px]'>
-                            <div className='bg-white rounded-[50px] flex justify-center gap-[30px] p-[5px]'>
-                                <div><Link to='/civil-war' ><img src={next} className='w-[25px] md:w-[30px]  rotate-180  ' /></Link></div>
-                                <div><Link to='/bolwing-alley' ><img src={next} className='w-[25px] md:w-[30px]    ' /></Link></div>
-                            </div>
-                        </div>
+                        <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] md:mt-0 "><span>Registration Fee - ₹200 per team</span></div>
+                        <div className='mt-[10px]'><span className='font-semibold text-[18px]'>All the teams must have 4 members each.</span></div>
+                        <div className='mt-[10px] font-semibold'><button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[14px] lg:text-[16px]  self-center"><Link to='/registrations'>Register Now</Link></button></div>
                     </div>
                 </div>
             </div>
@@ -84,30 +67,79 @@ const JK = () => {
 
                     <div className="flex justify-center mt-[20px]">
                         <div className={activeButton === 0 ? 'active-div' : 'deactive-div'}>
-                            <div className='text-center mb-[10px]'>
-                                <div><span className='font-bold text-[20px]'>EVENT DESC</span></div>
-                                <div><span>Details </span></div>
+                            <div className='text-center  mb-[50px]'>
+                                <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>EVENT DESCRIPTION</span></div>
+                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>Design and construct a load-bearing bridge using only the provided materials.</span></div>
                             </div>
-                            <div className='text-center mb-[10px]'>
-                                <div><span className='font-bold text-[20px]'>PARTICIPATION</span></div>
-                                <div><span>Details </span></div>
+                            <div className='text-center  mb-[50px]'>
+                                <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>PARTICIPATION</span></div>
+                                <div><span className='font-semibold text-[17px]'>Each team must have 4 members.</span></div>
                             </div>
-                            <div className='text-center mb-[10px]'>
-                                <div><span className='font-bold text-[20px]'>PROBLEM STATEMENT</span></div>
-                                <div><span>Details </span></div>
+                            <div className='text-center  mb-[50px]'>
+                                <div className=' mb-[10px] '><span className='font-bold  text-[20px] underline  '>PROBLEM STATEMENT</span></div>
+                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>Design and construct a load-bearing bridge using only the provided materials. The challenge involves
+                                    creating a structurally sound bridge utilizing limited resources, testing its ability to support a
+                                    specified load efficiently, and showcasing innovative engineering principles to achieve maximum
+                                    strength-to-weight ratio.
+                                </span></div>
+                                {/* <div className='flex justify-center'><img src={joist_img} className='w-[350px]' /></div> */}
+                                <div className='mt-[20px]'><span className='font-semibold'>Dimensions</span></div>
+                                <div>
+                                    <div><span>Length - 45-50 cm</span></div>
+                                    <div><span>Width - 11-12 cm</span></div>
+                                </div>
                             </div>
-                            <div className='text-center mb-[10px]'>
-                                <div><span className='font-bold text-[20px]'>MATERIALS PROVIDED</span></div>
-                                <div><span>Details </span></div>
+                            <div className='text-center  mb-[50px]'>
+                                <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>MATERIALS PROVIDED</span></div>
+                                <div className='flex justify-center text-left'>
+                                    <table className='table-auto text-[17px]'>
+                                        <thead>
+                                            <tr className=''>
+                                                <th className='pr-[80px]'>Materials &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                                                <th>Quantity</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {materialData.map((item, index) => (
+                                                <tr key={index}>
+                                                    <td>{item.material}</td>
+                                                    <td>{item.quantity}</td>
+                                                </tr>
+                                            ))}
+                                        </tbody>
+                                    </table>
+
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className={activeButton === 1 ? 'active-div' : 'deactive-div'}>
-                        <div className='text-center mb-[10px]'><span className='font-bold text-[20px]'>ROUND 1(DAY 1)</span></div>
-                        <div className='text-center mb-[10px]'><span className='font-bold text-[20px]'>ROUND 2(DAY 2)</span></div>
+                    <div className={`${activeButton === 1 ? 'active-div' : 'deactive-div'} text-[18px] `}>
+                        <div className='text-center'><span className='font-bold  text-[18px] '>
+                            The event will be conducted in <span> 2 rounds</span></span></div>
+                        <div className='flex justify-center mt-[10px] mx-[20px]'>
+                            <div>
+                                <div><span><b>Round 1</b><br/>15th September, 2023 | 11:30 am - 01:30 pm</span></div>
+                                <div><span><b>Round 2</b><br/>16th September, 2023 | 08:30 am - 11:00 am</span></div>
+                            </div>
+                        </div>
                     </div>
-                    <div className={activeButton === 2 ? 'active-div' : 'deactive-div'}>
-                        <div className='text-center mb-[10px]'><span className='font-bold text-[20px]'>JUDGING CRITERIA</span></div>
+                    <div className={`${activeButton === 2 ? 'active-div' : 'deactive-div'} mx-[20px]`}>
+                        <div className='text-center mb-[10px]'><span className='font-bold text-[20px] underline'>JUDGING CRITERIA</span></div>
+                        <div className='flex justify-center text-[17px] text-center'>
+                            <div>
+                                <div><span><b>Geometry</b></span></div>
+                                <div><span>Length - 45-50 cm</span></div>
+                                <div><span>Width - 11-12 cm</span></div>
+
+                                <div className='mt-[10px]'><span><b>Deflection</b></span></div>
+                                <div><span>Applied load upto failure.</span></div>
+
+                                <div className='mt-[10px]'><span><b>Economy</b></span></div>
+                                <div><span>Number of sticks used.</span></div>
+
+                                <div className='mt-[10px]'><span><b>Alterations of sticks are not allowed</b></span></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

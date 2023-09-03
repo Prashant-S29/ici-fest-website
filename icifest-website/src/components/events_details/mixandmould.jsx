@@ -1,22 +1,23 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { bowling_img } from '../../assets';
 
 
 const materialData = [
-    { material: 'Cement', quantity: '3.5 kg' },
-    { material: 'Fine Sand', quantity: '2 kg' },
-    { material: 'Mould', quantity: '1' },
-    { material: 'Poly Bags', quantity: '1' },
-    { material: 'Trovel and Pans', quantity: '1' },
+    { material: 'Plaster of Paris', quantity: '2 kg' },
+    { material: 'Cloth', quantity: '1' },
+    { material: 'Bucket (mould)', quantity: '1' },
+    { material: 'Polythene', quantity: '2' },
+    { material: 'Mixing Container', quantity: '1' },
     { material: 'Gloves', quantity: '1' },
-    { material: 'Bottles', quantity: '1' },
-    { material: 'Cement Bags', quantity: '1' },
+    { material: 'Colours (Red, Green, Blue)', quantity: '40g each' },
+    { material: 'Paintbrush', quantity: '1' },
+    { material: 'Disposable glass', quantity: '3' },
+
 ];
 
 
-const BA = () => {
+const MIXANDMOULD = () => {
     const [activeButton, setActiveButton] = useState(0);
 
     const handleButtonClick = (index) => {
@@ -30,15 +31,15 @@ const BA = () => {
             <div className="flex justify-center">
                 <div className=" mx-[10px] md:mx-[60px] lg:mx-[200px] w-full">
                     <div className="bg-[#ffb4a7] px-[20px] md:px-[40px] py-[30px] rounded-[30px] text-center" >
-                        <div><span className="font-extrabold text-[38px] md:text-[50px] uppercase" >Bowling Alley</span></div>
+                        <div><span className="font-extrabold text-[38px] md:text-[50px] uppercase" >MIX AND MOULD</span></div>
                         <div className="flex justify-center"><div className="w-[100px] h-[4px] bg-[#ff583e]  " /></div>
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
                             <div><span>Date</span></div>
                             <div><span>Round 1 - 15<sup>th </sup>September 2023</span></div>
                             <div><span>Round 2 - 16<sup>th </sup>September 2023</span></div>
                             <div className='mt-[10px]'><span>Time</span></div>
-                            <div><span>Round 1 - 12:30 PM to 02:00 PM</span></div>
-                            <div><span>Round 2 - 08:30 AM to 11:00 AM</span></div>
+                            <div><span>Round 1 - 02:30 pm to 03:30 pm</span></div>
+                            <div><span>Round 2 - 09:00 am to 11:00 am</span></div>
                             <div className='mt-[10px]'><span>Venue</span></div>
                             <div><span>Tech zone in football ground</span></div>
                         </div>
@@ -74,9 +75,9 @@ const BA = () => {
                         <div className={activeButton === 0 ? 'active-div' : 'deactive-div'}>
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>EVENT DESCRIPTION</span></div>
-                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>Cast a perfect ball using cement concrete and hit the brick
-                                    pins aiming maximum score
-                                </span></div>
+                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>The 'Mix and Mould'
+                                    competition challenges you to step into this realm and create craftsmanship that
+                                    resonates with the heart of plaster of Paris. Your task is to mould a cloth into a pot by mixing it with POP and also decorate it according to the theme which will be provided on spot.</span></div>
                             </div>
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>PARTICIPATION</span></div>
@@ -84,25 +85,17 @@ const BA = () => {
                             </div>
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] '><span className='font-bold  text-[20px] underline  '>PROBLEM STATEMENT</span></div>
-                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>Cast a perfect ball using cement concrete and hit the brick
-                                    pins aiming maximum score
+                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>Your task is to mould a cloth into a pot by mixing it with POP and also decorate it according to the theme.
                                 </span></div>
                             </div>
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>MATERIALS PROVIDED</span></div>
                                 <div className='flex justify-center text-left'>
-                                    <table className='table-auto text-[17px]'>
-                                        <thead>
-                                            <tr className=''>
-                                                <th className='pr-[80px]'>Materials &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-                                                <th>Quantity</th>
-                                            </tr>
-                                        </thead>
+                                    <table className='table-auto text-[17px] text-center'>
                                         <tbody>
                                             {materialData.map((item, index) => (
                                                 <tr key={index}>
                                                     <td>{item.material}</td>
-                                                    <td>{item.quantity}</td>
                                                 </tr>
                                             ))}
                                         </tbody>
@@ -113,25 +106,15 @@ const BA = () => {
                         </div>
                     </div>
                     <div className={`${activeButton === 1 ? 'active-div' : 'deactive-div'} text-[18px] `}>
-                        <div className='text-center'><span className='font-bold  text-[20px] '>
+                        <div className='text-center'><span className='font-bold  text-[18px] '>
                             The event will be conducted in <span> 2 rounds</span></span></div>
-                        <div className='flex justify-center mt-[10px] text-[17px] mx-[20px]'>
+                        <div className='flex justify-center mt-[10px] text-left md:text-center mx-[10px]'>
                             <div>
-                                <div>
-                                    <div><span><b>Round 1</b></span></div>
-                                    <div><span>Cast the ball in a given time (1.5 hrs.) and leave it for a day to settle.
-                                    </span></div>
-                                </div>
-                                <div className='mt-[10px]'>
-                                    <div><span><b>Round 2</b></span></div>
-                                    <div>
-                                        <ul>
-                                            <li>Aim at the bricks arranged in the form of pins and swing your ball
-                                                through the alley.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                <div><span className='font-bold'>Casting the POT</span></div>
+                                <div><span>Team will be given <b>40 minutes </b>to caste their pots with the help of provided materials.</span></div>
+
+                                <div className='mt-[10px]'><span className='font-bold'>Decorating the POT</span></div>
+                                <div><span>Team will be given <b>1 hr and 30 minutes </b>to decorate their pots according to the theme provided by the coordinators.</span></div>
                             </div>
                         </div>
                     </div>
@@ -139,8 +122,8 @@ const BA = () => {
                         <div className='text-center mb-[10px]'><span className='font-bold text-[20px] underline'>JUDGING CRITERIA</span></div>
                         <div className='flex justify-center text-[17px] text-center'>
                             <div>
-                                <div><span>Each team will get 10 chances to hit the pins.</span></div>
-                                <div><span>The team with maximum score will win.</span></div>
+                                <div className='mt-[10px]'><span><b>Shape and Decoration</b></span></div>
+                                <div><span>Judges will judge your models based on its shape and decoration.</span></div>
                             </div>
                         </div>
                     </div>
@@ -151,4 +134,4 @@ const BA = () => {
     );
 };
 
-export default BA;
+export default MIXANDMOULD;

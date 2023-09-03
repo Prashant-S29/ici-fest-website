@@ -1,22 +1,17 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { bowling_img } from '../../assets';
 
 
 const materialData = [
-    { material: 'Cement', quantity: '3.5 kg' },
-    { material: 'Fine Sand', quantity: '2 kg' },
-    { material: 'Mould', quantity: '1' },
-    { material: 'Poly Bags', quantity: '1' },
-    { material: 'Trovel and Pans', quantity: '1' },
-    { material: 'Gloves', quantity: '1' },
-    { material: 'Bottles', quantity: '1' },
-    { material: 'Cement Bags', quantity: '1' },
+    { material: 'Dowel Sticks', quantity: '100 Sticks' },
+    { material: 'Adhesive Fevicol', quantity: '1' },
+    { material: 'Cutter', quantity: '1' },
+    { material: 'Threads', quantity: '1 Roll' },
 ];
 
 
-const BA = () => {
+const QUAKE = () => {
     const [activeButton, setActiveButton] = useState(0);
 
     const handleButtonClick = (index) => {
@@ -30,15 +25,15 @@ const BA = () => {
             <div className="flex justify-center">
                 <div className=" mx-[10px] md:mx-[60px] lg:mx-[200px] w-full">
                     <div className="bg-[#ffb4a7] px-[20px] md:px-[40px] py-[30px] rounded-[30px] text-center" >
-                        <div><span className="font-extrabold text-[38px] md:text-[50px] uppercase" >Bowling Alley</span></div>
+                        <div><span className="font-extrabold text-[38px] md:text-[50px] uppercase" >Quake Proof</span></div>
                         <div className="flex justify-center"><div className="w-[100px] h-[4px] bg-[#ff583e]  " /></div>
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
                             <div><span>Date</span></div>
                             <div><span>Round 1 - 15<sup>th </sup>September 2023</span></div>
                             <div><span>Round 2 - 16<sup>th </sup>September 2023</span></div>
                             <div className='mt-[10px]'><span>Time</span></div>
-                            <div><span>Round 1 - 12:30 PM to 02:00 PM</span></div>
-                            <div><span>Round 2 - 08:30 AM to 11:00 AM</span></div>
+                            <div><span>Round 1 - 01:30 pm to 03:30 pm</span></div>
+                            <div><span>Round 2 - 08:00 am to 11:00 am</span></div>
                             <div className='mt-[10px]'><span>Venue</span></div>
                             <div><span>Tech zone in football ground</span></div>
                         </div>
@@ -74,19 +69,21 @@ const BA = () => {
                         <div className={activeButton === 0 ? 'active-div' : 'deactive-div'}>
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>EVENT DESCRIPTION</span></div>
-                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>Cast a perfect ball using cement concrete and hit the brick
-                                    pins aiming maximum score
-                                </span></div>
+                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>Your task is to design and build a model of earthquake resistant building out of Dowel Sticks and Thread.</span></div>
                             </div>
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>PARTICIPATION</span></div>
-                                <div><span className='font-semibold text-[17px]'>In teams. Must have 4 members each.</span></div>
+                                <div><span className='font-semibold text-[17px]'>Each teams must have 4 members.</span></div>
                             </div>
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] '><span className='font-bold  text-[20px] underline  '>PROBLEM STATEMENT</span></div>
-                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>Cast a perfect ball using cement concrete and hit the brick
-                                    pins aiming maximum score
+                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>Your task is to design and build a model of earthquake resistant building out of Dowel Sticks and Thread.
                                 </span></div>
+                                <div className='mt-[20px]'><span className='font-semibold'>Dimensions</span></div>
+                                <div>
+                                    <div><span>Base - 13x13 cm</span></div>
+                                    <div><span>Height - 60 cm (minimum)</span></div>
+                                </div>
                             </div>
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>MATERIALS PROVIDED</span></div>
@@ -115,23 +112,14 @@ const BA = () => {
                     <div className={`${activeButton === 1 ? 'active-div' : 'deactive-div'} text-[18px] `}>
                         <div className='text-center'><span className='font-bold  text-[20px] '>
                             The event will be conducted in <span> 2 rounds</span></span></div>
-                        <div className='flex justify-center mt-[10px] text-[17px] mx-[20px]'>
+                        <div className='flex justify-center mt-[10px] text-left md:text-center mx-[10px]'>
                             <div>
-                                <div>
-                                    <div><span><b>Round 1</b></span></div>
-                                    <div><span>Cast the ball in a given time (1.5 hrs.) and leave it for a day to settle.
-                                    </span></div>
-                                </div>
-                                <div className='mt-[10px]'>
-                                    <div><span><b>Round 2</b></span></div>
-                                    <div>
-                                        <ul>
-                                            <li>Aim at the bricks arranged in the form of pins and swing your ball
-                                                through the alley.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                <div><span className='font-bold'>Constructing the model</span></div>
+                                <div><span><b>2 hrs </b>will be given to construct the models.</span></div>
+                                
+                                <div className='mt-[10px]'><span className='font-bold'>Testing the model</span></div>
+                                <div><span>Models will tested on the Earthquake shaking table.</span></div>
+                                <div><span className='text-[17px] font-semibold'>Note that one person form each team should be present at the time of testing.</span></div>
                             </div>
                         </div>
                     </div>
@@ -139,8 +127,15 @@ const BA = () => {
                         <div className='text-center mb-[10px]'><span className='font-bold text-[20px] underline'>JUDGING CRITERIA</span></div>
                         <div className='flex justify-center text-[17px] text-center'>
                             <div>
-                                <div><span>Each team will get 10 chances to hit the pins.</span></div>
-                                <div><span>The team with maximum score will win.</span></div>
+                                <div><span><b>Geometry</b></span></div>
+                                <div><span>Width - 12-15 cm</span></div>
+                                <div><span>Height - 60-70 cm</span></div>
+
+                                <div className='mt-[10px]'><span><b>Economy</b></span></div>
+                                <div><span>Number of sticks used.</span></div>
+
+                                <div className='mt-[10px]'><span><b>Shaking Table and Weight Test</b></span></div>
+                                <div><span>Resistivity against earthquake.</span></div>
                             </div>
                         </div>
                     </div>
@@ -151,4 +146,4 @@ const BA = () => {
     );
 };
 
-export default BA;
+export default QUAKE;

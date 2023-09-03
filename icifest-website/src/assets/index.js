@@ -38,6 +38,9 @@ import th from './th.png';
 import workshop from './workshop.png';
 import cementpottery from './cementpottery.png'
 import civilwar from './civilwar.png'
+import ctc from './ctc.png';
+import tower_1 from './event-pics/tower_1.png';
+import quake_img from './event-pics/quake.png';
 
 import mainlogo from './mainlogo.png';
 
@@ -70,6 +73,17 @@ import four from './4.png';
 
 import next from './next.png';
 
+import bob_img from './event-pics/bob.png';
+import joist_img from './event-pics/joist.png';
+import bowling_img from './event-pics/bowling.png';
+import tower_img from './event-pics/tower.png';
+import crackthecad_img from './event-pics/crackthecad.png';
+import pot_img from './event-pics/pot.png';
+import essay_img from './event-pics/essay.png';
+import inno_img from './event-pics/inno.png';
+import mud_img from './event-pics/mud.png';
+import brush_img from './event-pics/brush.png';
+
 export {
     bg_video_desktop,
     bg_video_mobile,
@@ -91,10 +105,11 @@ export {
     ba,
     bob,
     cw,
-    th,
+    th,ctc,
     workshop,
     cementpottery,
     civilwar,
+    tower_1,
     mainlogo,
     social_icon,
     quicklink_icon,
@@ -108,4 +123,6 @@ export {
     bg_image,bg_image1,
     one, two, three, four,
     next,
+    bob_img,joist_img, bowling_img, tower_img, crackthecad_img,
+    quake_img,pot_img,essay_img, inno_img, mud_img, brush_img
 };

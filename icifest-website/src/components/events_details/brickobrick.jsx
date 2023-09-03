@@ -1,35 +1,19 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { next } from '../../assets';
+import { bob_img, next } from '../../assets';
 
-const ButtonInfo = [
-    {
-        id: 1,
-        text: 'ABOUT',
-        desc: 'This is about section',
-        participation: "In teams with 4 members each.",
-        problem: "COMING SOON",
-        material: "123456789",
-    },
-    {
-        id: 2,
-        text: 'STRUCTURE',
-        desc: 'This is structure section',
-        participation: "In teams with 4 members each.",
-        problem: "COMING SOON",
-        material: "123456789",
-    },
-    {
-        id: 3,
-        text: 'JUDGEMENT CRITERIA',
-        desc: 'This is judgement section',
-        participation: "In teams with 4 members each.",
-        problem: "COMING SOON",
-        material: "123456789",
-    },
 
+const materialData = [
+    { material: 'Bricks', quantity: '27' },
+    { material: 'Cement', quantity: '3 Kg' },
+    { material: 'Trowel', quantity: '2' },
+    { material: 'Sand', quantity: '15 Kg' },
+    { material: 'Water', quantity: '4 Liters' },
+    { material: 'Hand Pan', quantity: '2' },
+    { material: 'Threads', quantity: 'If needed' },
 ];
+
 
 const BOB = () => {
     const [activeButton, setActiveButton] = useState(0);
@@ -44,20 +28,17 @@ const BOB = () => {
 
             <div className="flex justify-center">
                 <div className=" mx-[10px] md:mx-[60px] lg:mx-[200px] w-full">
-                    <div className="bg-[#ffb4a7] px-[40px] py-[30px] rounded-[30px] text-center" >
+                    <div className="bg-[#ffb4a7] px-[20px] md:px-[40px] py-[30px] rounded-[30px] text-center" >
                         <div><span className="font-extrabold text-[38px] md:text-[50px]" >BRICK-O-BRICK</span></div>
                         <div className="flex justify-center"><div className="w-[100px] h-[4px] bg-[#ff583e]  " /></div>
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
-                            <div><span>Date - 15<sup>th </sup>September 2023</span></div>
-                            <div><span>Time - 10:00 AM onwards</span></div>
+                            <div><span>Date - 16<sup>th </sup>September 2023</span></div>
+                            <div><span>Time - 09:00 AM to 11:00 AM</span></div>
+                            <div><span>Venue - Tech zone in football ground</span></div>
                         </div>
                         <div className="font-bold text-[22px] md:text-[28px] leading-none mt-[10px] md:mt-0 "><span>Registration Fee - ₹200 per team</span></div>
-                        <div className='flex justify-center mt-[20px]'>
-                            <div className='bg-white rounded-[50px] flex justify-center gap-[30px] p-[5px]'>
-                                <div><Link to='/bolwing-alley' ><img src={next} className='w-[25px] md:w-[30px]  rotate-180  ' /></Link></div>
-                                <div><Link to='/cement-pottery' ><img src={next} className='w-[25px] md:w-[30px]    ' /></Link></div>
-                            </div>
-                        </div>
+                        <div className='mt-[10px]'><span className='font-semibold text-[18px]'>All the teams must have 4 members each.</span></div>
+                        <div className='mt-[10px] font-semibold'><button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[14px] lg:text-[16px]  self-center"><Link to='/registrations'>Register Now</Link></button></div>
                     </div>
                 </div>
             </div>
@@ -85,30 +66,71 @@ const BOB = () => {
 
                     <div className="flex justify-center mt-[20px]">
                         <div className={activeButton === 0 ? 'active-div' : 'deactive-div'}>
-                            <div className='text-center mb-[10px]'>
-                                <div><span className='font-bold text-[20px]'>EVENT DESC</span></div>
-                                <div><span>Details </span></div>
+                            <div className='text-center  mb-[50px]'>
+                                <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>EVENT DESCRIPTION</span></div>
+                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>In this event, all the teams have to construct a L-Shaped step walls using bricks. The walls will be checked for stability and safety.</span></div>
                             </div>
-                            <div className='text-center mb-[10px]'>
-                                <div><span className='font-bold text-[20px]'>PARTICIPATION</span></div>
-                                <div><span>Details </span></div>
+                            <div className='text-center  mb-[50px]'>
+                                <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>PARTICIPATION</span></div>
+                                <div><span className='font-semibold text-[17px]'>All the teams must have 4 memebers each.</span></div>
                             </div>
-                            <div className='text-center mb-[10px]'>
-                                <div><span className='font-bold text-[20px]'>PROBLEM STATEMENT</span></div>
-                                <div><span>Details </span></div>
+                            <div className='text-center  mb-[50px]'>
+                                <div className=' mb-[10px] '><span className='font-bold  text-[20px] underline  '>PROBLEM STATEMENT</span></div>
+                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>Construct a structurally sound L-shaped step wall using bricks. The challenge is to create a design that showcases the versatility of brick as a building material, while ensuring the wall's stability and safety for users.
+                                </span></div>
+                                <div className='flex justify-center'><img src={bob_img} /></div>
+                                <div className='mt-[20px]'><span className='font-semibold'>Dimensions</span></div>
+                                <div>
+                                    <div><span>First side - 31 inches</span></div>
+                                    <div><span>Other side - 36 inches</span></div>
+                                    <div><span>Height of the structure - 19 inches</span></div>
+                                </div>
                             </div>
-                            <div className='text-center mb-[10px]'>
-                                <div><span className='font-bold text-[20px]'>MATERIALS PROVIDED</span></div>
-                                <div><span>Details </span></div>
+                            <div className='text-center  mb-[50px]'>
+                                <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>MATERIALS PROVIDED</span></div>
+                                <div className='flex justify-center text-left'>
+                                    <table className='table-auto text-[17px]'>
+                                        <thead>
+                                            <tr className='p-[20px]'>
+                                                <th className='pr-[50px]'>Materials</th>
+                                                <th>Quantity</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {materialData.map((item, index) => (
+                                                <tr key={index}>
+                                                    <td>{item.material}</td>
+                                                    <td>{item.quantity}</td>
+                                                </tr>
+                                            ))}
+                                        </tbody>
+                                    </table>
+
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className={activeButton === 1 ? 'active-div' : 'deactive-div'}>
-                        <div className='text-center mb-[10px]'><span className='font-bold text-[20px]'>ROUND 1(DAY 1)</span></div>
-                        <div className='text-center mb-[10px]'><span className='font-bold text-[20px]'>ROUND 2(DAY 2)</span></div>
+                    <div className={`${activeButton === 1 ? 'active-div' : 'deactive-div'} text-[18px] `}>
+                        <div className='text-center'><span className='font-bold underline text-[20px] uppercase '>Time Limits</span></div>
+                        <div className='text-center mt-[10px]'>
+                            <div><span>Event timing - 2hrs</span></div>
+                            <div><span>Briefing Time - 15min (starting)</span></div>
+                            <div><span>Time limit for the task - 45 min</span></div>
+                            <div><span>Result and checking -  1hr</span></div>
+                        </div>
                     </div>
-                    <div className={activeButton === 2 ? 'active-div' : 'deactive-div'}>
-                        <div className='text-center mb-[10px]'><span className='font-bold text-[20px]'>JUDGING CRITERIA</span></div>
+                    <div className={`${activeButton === 2 ? 'active-div' : 'deactive-div'} mx-[20px]`}>
+                        <div className='text-center mb-[10px]'><span className='font-bold text-[20px] underline'>JUDGING CRITERIA</span></div>
+                        <div><span className='text-[17px] '>Judgement will be done on the basis of - .</span></div>
+                        <div className=' flex justify-center text-[17px]'>
+                            <div>
+                                <div><span>1. Appearance and Geometry.</span></div>
+                                <div><span>2. Placement of Bricks and it's  bond alignment.</span></div>
+                                <div><span>3. 90° angle between the corners of wall.</span></div>
+                                <div><span>4. Straightness of wall.</span></div>
+                                <div><span>5. Space of each step must be same.</span></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

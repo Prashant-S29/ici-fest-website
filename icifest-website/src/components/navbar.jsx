@@ -99,13 +99,16 @@ const Navbar = () => {
                                 <li className="nav-link"><a href="https://drive.google.com/drive/folders/1y3hMlWEWZzpL_iN8EpH9gIPhBKFBIDQ4?usp=sharing" target="blank">Gallery</a></li>
                                 <li className="nav-link"><Link to="/aboutteam">About</Link></li>
                                 <li className="nav-link"><Link to="/events">Events</Link></li>
-                                <li className="block md:hidden">
-                                    <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[12px] lg:text-[14px]  self-center"><Link to='/registrations'>Register Now</Link></button>
+                                <li className="block md:hidden nav-link"><Link to="/events">
+                                    <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[12px] lg:text-[14px]  self-center">Register Now</button>
+                                </Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="w-[0.5px] mr-[25px] ml-[25px] h-[30px] bg-black hidden xl:block " />
-                        <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[12px] lg:text-[16px] self-center hidden md:block"><Link to='/registrations'>Register Now</Link></button>
+                        <Link to="/events">
+                            <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[12px] lg:text-[16px] self-center hidden md:block">Register Now</button>
+                        </Link>
                     </div>
                 </nav>
             </header>

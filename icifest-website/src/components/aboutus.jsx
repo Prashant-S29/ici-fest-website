@@ -75,7 +75,7 @@ const About = () => {
           </div>
           <div>
             <div className="mt-[10px]"><span className="font-bold text-[16px] md:text-[18px]">Dates for FEST'23</span></div>
-            <div className="text-[14px] md:text-[16px]"><span>15<sup>th </sup>& 16<sup>th </sup>September 2023</span></div>
+            <div className="text-[14px] md:text-[16px]"><span>15<sup>th </sup>to 17<sup>th </sup>September 2023</span></div>
             <div className="mt-[10px]"><span className="font-bold text-[16px] md:text-[18px]">Venue</span></div>
             <div className="text-[14px] md:text-[16px]"><span>SKIT Campus, Ram Nagariya Rd, Jagatpura, Jaipur</span></div>
             <div className="flex mt-[20px] gap-3 md:gap-5">

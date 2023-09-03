@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
-
-const SH = () => {
+const TOOGLE = () => {
     const [activeButton, setActiveButton] = useState(0);
 
     const handleButtonClick = (index) => {
@@ -17,16 +16,15 @@ const SH = () => {
             <div className="flex justify-center">
                 <div className=" mx-[10px] md:mx-[60px] lg:mx-[200px] w-full">
                     <div className="bg-[#ffb4a7] px-[20px] md:px-[40px] py-[30px] rounded-[30px] text-center" >
-                        <div><span className="font-extrabold text-[38px] md:text-[50px] uppercase" >Scavenger Hunt</span></div>
+                        <div><span className="font-extrabold text-[38px] md:text-[50px]" >TOGGLE</span></div>
                         <div className="flex justify-center"><div className="w-[100px] h-[4px] bg-[#ff583e]  " /></div>
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
-                            <div><span>Date - 17<sup>th </sup>September 2023</span></div>
-                            <div className='mt-[10px]'><span>Time - 09:00 pm to 10:30 am</span></div>
-                            {/* <div className='mt-[10px]'><span>Venue</span></div> */}
-                            {/* <div><span>Tech zone in football ground</span></div> */}
+                            <div><span>Date - 15<sup>th </sup>September 2023</span></div>
+                            <div className='mt-[10px]'><span>Time  - 12:00 PM to 01:30 PM</span></div>
+                            <div className='mt-[10px]'><span>Venue - Communication Skills Lab</span></div>
+                            <div><span>Civil Block 2nd floor.</span></div>
                         </div>
-                        <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] md:mt-0 "><span>Registration Fee - ₹200 per team</span></div>
-                        <div className='mt-[10px]'><span className='font-semibold text-[18px]'>All the teams must have 4 members each.</span></div>
+                        <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] md:mt-0 "><span>Registration Fee - ₹50 per individual</span></div>
                         <div className='mt-[10px] font-semibold'><button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[14px] lg:text-[16px]  self-center"><Link to='/registrations'>Register Now</Link></button></div>
                     </div>
                 </div>
@@ -57,45 +55,36 @@ const SH = () => {
                         <div className={activeButton === 0 ? 'active-div' : 'deactive-div'}>
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>EVENT DESCRIPTION</span></div>
-                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>
-                                    This scavenger hunt is not the common one. This time it is a
-                                    trivia hunt. Scavenger hunt is a game in which the organizers
-                                    prepare a list of specific items, challenges, or activities that
-                                    the participants must find, complete, or perform. There are 7
-                                    levels in the game. .</span></div>
-                                <div className='text-left flex justify-center'>
-                                    <div>
-
-                                        <div className='mt-[20px]'><span className='font-bold text-[18px] '>Rule Book</span></div>
-                                        <div className='text-[18px] '>
-                                            <ul>
-                                                <li>1. Participants must participate in team of 4 members.</li>
-                                                <li>2. All the cell phones will be collected at the briefing time of event.</li>
-                                                <li>3. There is disqualification of teams at every level..</li>
-                                                <li>4. Use of unfair means and gossip with other teams is not allowed.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>Participants will be provided a topic and they have to speak on it.</span></div>
                             </div>
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>PARTICIPATION</span></div>
                                 <div><span className='font-semibold text-[17px]'>In teams. Must have 4 members each.</span></div>
                             </div>
-
+                            <div className='text-center  mb-[50px]'>
+                                <div className=' mb-[10px] '><span className='font-bold  text-[20px] underline  '>PROBLEM STATEMENT</span></div>
+                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>In this activity, every participant will be given a topic . They will start by presenting the positive aspects/advantages of the given topic. When the judges say the word 'TOGGLE,' participants must switch to the negative aspects/disadvantages of the topic. This alternating pattern will continue throughout the activity.
+                                </span></div>
+                            </div>
+                            
                         </div>
                     </div>
                     <div className={`${activeButton === 1 ? 'active-div' : 'deactive-div'} text-[18px] `}>
-                        <div className='text-center'>
-                        <span>There are <b>various levels</b> in the games. Each level has some specific task.</span>
-                        </div>
+                        <div className='text-center mx-[10px]'><span className='font-semibold'>Each participant will be allotted a 3-minute speaking slot and will be given 3 minutes of preparation time before their turn to speak.</span></div>
                     </div>
                     <div className={`${activeButton === 2 ? 'active-div' : 'deactive-div'} mx-[20px]`}>
                         <div className='text-center mb-[10px]'><span className='font-bold text-[20px] underline'>JUDGING CRITERIA</span></div>
-                        <div className='flex justify-center text-[17px] text-center font-semibold'>
+                        <div className='flex justify-center text-[18px] text-left md:text-center mx-[10px]'>
                             <div>
-                                <div><span>The First team to solve the last level is going to be the winner.
-                                </span></div>
+                                <div><span><b>Fluency</b></span></div>
+                                <div className='w-full  md:w-[555px]'><span>It measures how smoothly and clearly participants express their thoughts. It looks at their ability to maintain a steady pace and engage the audience effectively.</span></div>
+
+                                <div className='mt-[10px]'><span><b>Relevance to the Topic</b></span></div>
+                                <div className='w-full  md:w-[555px]'><span>Judges evaluate how well speakers stick to the given topic. Relevant content and staying on-point are crucial for a higher score.</span></div>
+
+                                <div className='mt-[10px]'><span><b>Precision</b></span></div>
+                                <div className='w-full  md:w-[555px]'><span>Precision assesses the clarity and accuracy of the speaker's communication. It involves using clear, concise language and avoiding vague or confusing statements.</span></div>
+
                             </div>
                         </div>
                     </div>
@@ -106,4 +95,4 @@ const SH = () => {
     );
 };
 
-export default SH;
+export default TOOGLE;

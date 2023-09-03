@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import { img102, img104, team1, team2, team3, team4, tech1, tech3, tech2, one, two, three, four } from "../assets";
+import { one, two, three, four } from "../assets";
 
 
 const AboutTeam = () => {
@@ -13,40 +13,33 @@ const AboutTeam = () => {
                     <div className="w-full  h-full overflow-hidden hidden md:block">
                         <div className="w-[150px] aspect-square absolute -bottom-[180%] about_box -z-50 bg-[#ff583e4f]" />
                         <div className="w-[80px] aspect-square absolute -bottom-[150%] about_box -z-50 bg-[#ff583e4f] hidden xl:block left-[1300px]" />
-                        <div className="w-[100px] box1 aspect-square absolute -bottom-[250%] about_box -z-50 bg-[#ff583e4f]
-                    left-[500px] " />
-                        <div className="w-[250px] box1  aspect-square absolute -bottom-[300%] about_box -z-50 bg-[#ff583e4f]
-                    left-[1000px] hidden xl:block" />
-                        <div className="w-[60px]   aspect-square absolute -bottom-[300%] about_box -z-50 bg-[#ff583e4f]
+                        <div className="w-[60px]   aspect-square absolute -bottom-[150%] about_box -z-50 bg-[#ff583e4f]
                     left-[800px] hidden lg:block" />
                         <div className="w-[30px] box2   aspect-square absolute -bottom-[10%] about_box -z-50 bg-[#ff583e4f]
                     left-[500px]" />
-                        <div className="w-[150px] aspect-square absolute -bottom-[300%] about_box -z-50 box3 bg-[#ff583e4f]" />
-                        <div className="w-[80px] aspect-square absolute -bottom-[200%] about_box -z-50 box3 bg-[#ff583e4f] hidden xl:block left-[1300px]" />
-                        <div className="w-[100px]  aspect-square absolute -bottom-[300%] about_box -z-50 box3 bg-[#ff583e4f]
-                    left-[500px] " />
-                        <div className="w-[250px]   aspect-square absolute -bottom-[200%] about_box -z-50 box3 bg-[#ff583e4f] left-[250px] hidden xl:block" />
-                        <div className="w-[80px]    aspect-square absolute -bottom-[250%] about_box -z-50 box3 bg-[#ff583e4f] left-[800px] hidden lg:block" />
-                        <div className="w-[30px] box2   aspect-square absolute -bottom-[300%] about_box -z-50 box3 bg-[#ff583e4f]
+                        <div className="w-[80px] aspect-square absolute -bottom-[150%] about_box -z-50 box3 bg-[#ff583e4f] hidden xl:block left-[1300px]" />
+                        <div className="w-[250px]   aspect-square absolute -bottom-[150%] about_box -z-50 box3 bg-[#ff583e4f] left-[250px] hidden xl:block" />
+                        <div className="w-[80px]    aspect-square absolute -bottom-[150%] about_box -z-50 box3 bg-[#ff583e4f] left-[800px] hidden lg:block" />
+                        <div className="w-[30px] box2   aspect-square absolute -bottom-[150%] about_box -z-50 box3 bg-[#ff583e4f]
                     left-[500px]" />
                     </div>
 
                     <div className="w-full -z-10 h-full overflow-hidden block md:hidden">
-                        <div className="w-[40px] aspect-square absolute -bottom-[400%] about_box bg-[#ff583e4f]" />
-                        <div className="w-[80px] aspect-square absolute -bottom-[300%] about_box bg-[#ff583e4f]  left-[65%]" />
-                        <div className="w-[60px]  box3 aspect-square absolute -bottom-[600%] about_box bg-[#ff583e4f]
+                        <div className="w-[40px] aspect-square absolute -bottom-[250%] about_box bg-[#ff583e4f]" />
+                        <div className="w-[80px] aspect-square absolute -bottom-[200%] about_box bg-[#ff583e4f]  left-[65%]" />
+                        <div className="w-[60px]  box3 aspect-square absolute -bottom-[350%] about_box bg-[#ff583e4f]
                     left-[50%] " />
                         <div className="w-[80px]   aspect-square absolute -bottom-[100%] about_box bg-[#ff583e4f]
                     left-[40%] " />
-                        <div className="w-[40px]  box3 aspect-square absolute -bottom-[500%] about_box bg-[#ff583e4f]
+                        <div className="w-[40px]  box3 aspect-square absolute -bottom-[300%] about_box bg-[#ff583e4f]
                     left-[10%] " />
-                        <div className="w-[40px]   aspect-square absolute -bottom-[450%] about_box bg-[#ff583e4f]
+                        <div className="w-[40px]   aspect-square absolute -bottom-[100%] about_box bg-[#ff583e4f]
                     left-[60%] " />
-                        <div className="w-[20px]  aspect-square absolute -bottom-[500%] about_box bg-[#ff583e4f]
+                        <div className="w-[20px]  aspect-square absolute -bottom-[350%] about_box bg-[#ff583e4f]
                     left-[30%] " />
-                        <div className="w-[20px] box3 aspect-square absolute -bottom-[600%] about_box bg-[#ff583e4f]
+                        <div className="w-[20px] box3 aspect-square absolute -bottom-[200%] about_box bg-[#ff583e4f]
                     left-[10%] " />
-                        <div className="w-[40px]  aspect-square absolute -bottom-[200%] about_box bg-[#ff583e4f]
+                        <div className="w-[40px]  aspect-square absolute -bottom-[300%] about_box bg-[#ff583e4f]
                     left-[20%] " />
                         <div className="w-[20px]  aspect-square absolute -bottom-[10%] about_box bg-[#ff583e4f]
                     left-[60%] " />
@@ -67,7 +60,7 @@ const AboutTeam = () => {
                             </div>
                             <div className=" text-center text-[14px] md:text-[16px] lg:text-[18px] font-semibold mx-[20px]  md:mx-[40px] lg:mx-[80px] max-[320px]:leading-[20px]   ">
                                 <div>
-                                    <span>The ICI Fest has a special mission: to inspire young minds to show off their skills and go up against others by joining different technical, non technical events and workshops. Don't wait - rigister today to make yourself really stand out, even when faced with challenges. This Fest is all about energetic and excited people coming together.
+                                    <span>The ICI Fest has a special mission: To inspire young minds to show off their skills and go up against others by joining different technical, non technical events and workshops. Don't wait - register today to make yourself really stand out, even when faced with challenges. This Fest is all about energetic and excited people coming together.
 
                                         When you register, you're taking a step towards an awesome chance. You'll get to be part of cool events and workshops that are all about technology. Plus, you can test your abilities and see how you do compared to others.
 
@@ -96,7 +89,7 @@ const AboutTeam = () => {
                             <div className=" max-[320px]:mx-[20px] mx-[40px] lg:mx-[80px]  xl:mx-[210px]
                                max-[320px]:p-[10px] p-[20px] lg:p-[30px] rounded-[20px] 
                        max:-[320px]:leading-[18px] leading-normal ">
-                                <span className="text-black font-semibold  max-[320px]:text-[12px]  text-[14px] sm:text-[12px] lg:text-[16px] xl:text-[18px] ">Swami Keshvanand Institute of Technology, Management & Gramothan (SKIT), inspired from the learnings of Swami Keshvanand, was established in the year 2000 by Technocrats and Managers Society for Advanced Learning and Gramothan. Today the as one of the centres of academic excellence in Northern India. Located in the Pink City Jaipur, which is a blend of traditional history and modern outlook, SKIT is putting in efforts for making industry ready engineers and managers through effective Industry-Institute Interface.</span>
+                                <span className="text-black font-semibold   text-[14px]  lg:text-[16px] xl:text-[18px] ">Swami Keshvanand Institute of Technology, Management & Gramothan (SKIT), inspired from the learnings of Swami Keshvanand, was established in the year 2000 by Technocrats and Managers Society for Advanced Learning and Gramothan. Today it is one of the centres of academic excellence in Northern India. Located in the Pink City Jaipur, which is a blend of traditional history and modern outlook, SKIT is putting in efforts for making industry ready engineers and managers through effective Industry-Institute Interface.</span>
                             </div>
 
                         </div>
@@ -107,7 +100,7 @@ const AboutTeam = () => {
                             <div className="text-center mt-[20px]" ><span className="font-extrabold text-[40px] sm:text-[50px] lg:text-[80px]">JAIPUR</span></div>
                             <div className="flex justify-center " ><div className="h-[6px] w-[120px] rounded-full bg-[#ff583e]" /></div>
                             <div className="text-center mx-[20px] md:mx-[120px] mt-[30px]">
-                                <span className="font-semibold  text-[14px] sm:text-[12px] lg:text-[16px] xl:text-[18px]">The Pink City, Jaipur is considered as the first "planned" city in
+                                <span className="font-semibold  text-[14px]  lg:text-[16px] xl:text-[18px]">The Pink City, Jaipur is considered as the first "planned" city in
                                     the Common Era. Renowned globally for its coloured gems, the capital
                                     city of Rajasthan combines the allure of its ancient history of
                                     marvellous forts, magnificent temples and gorgeous palaces with all
@@ -135,91 +128,8 @@ const AboutTeam = () => {
                             </div>
                         </div>
                     </div>
-
-                    <div className="">
-                        <div className="text-center mt-[30px]"><span className="font-semibold uppercase text-[14px]" >
-                            Meet The Team</span></div>
-                        <div className="text-center font-extrabold text-[36px] "><span>Working
-                            <span className="text-[#ff583e]"> Team</span></span></div>
-                        <div className="flex flex-wrap justify-center  md:gap-8  lg:justify-center xl:justify-evenly  mt-[30px] ">
-                            <div className=" overflow-hidden team-photo  rounded-[20px] ">
-                                <div className="w-[250px] h-[300px] bg-[#c7c7c7]  overflow-hidden ">
-                                    <img src={team3} className=" w-full   " />
-                                </div>
-                                <div className="p-[10px]  text-center">
-                                    <div><span className="font-semibold " >Kunal Sharma</span></div>
-                                    <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
-                                </div>
-                            </div>
-                            <div className="mt-[25px] md:mt-0 overflow-hidden team-photo  rounded-[20px]">
-                                <div className="w-[250px] h-[300px] overflow-hidden bg-[#c7c7c7]   ">
-                                    <img src={team4} className=" w-full   " />
-                                </div>
-                                <div className="p-[10px]  text-center ">
-                                    <div><span className="font-semibold " >Vishal Bansiwal</span></div>
-                                    <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
-                                </div>
-                            </div>
-                            <div className="mt-[25px] md:mt-0 overflow-hidden team-photo   rounded-[20px]">
-                                <div className="w-[250px] h-[300px] overflow-hidden bg-[#c7c7c7]   ">
-                                    <img src={team2} className=" w-full   " />
-                                </div>
-                                <div className="p-[10px]  text-center ">
-                                    <div><span className="font-semibold " >Rohit Lamba</span></div>
-                                    <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
-                                </div>
-                            </div>
-                            <div className="mt-[25px] md:mt-0 overflow-hidden team-photo  rounded-[20px]">
-                                <div className="w-[250px] h-[300px] overflow-hidden bg-[#c7c7c7]   ">
-                                    <img src={team1} className=" w-full   " />
-                                </div>
-                                <div className="p-[10px]  text-center">
-                                    <div><span className="font-semibold " >Kritika Meena</span></div>
-                                    <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div className="mt-[70px] ">
-                            <div className="text-center font-extrabold text-[36px] "><span>Technical
-                                <span className="text-[#ff583e]"> Team</span></span></div>
-                            <div className="flex flex-wrap sm:gap-0 md:gap-8 lg:gap-0 justify-center lg:justify-evenly mt-[40px] ">
-                                <div className=" overflow-hidden team-photo  rounded-[20px]">
-                                    <div className="w-[250px] h-[300px] bg-[#c7c7c7]  overflow-hidden ">
-                                        <img src={tech1} className=" w-full   " />
-                                    </div>
-                                    <div className="p-[10px]  text-center">
-                                        <div><span className="font-semibold " >Hardik Sharma</span></div>
-                                        <div><span className="text-[14px]" >4<sup>th </sup>year CE</span></div>
-                                    </div>
-                                </div>
-                                <div className="mt-[25px] md:mt-0 overflow-hidden team-photo   rounded-[20px]">
-                                    <div className="w-[250px] h-[300px] overflow-hidden bg-[#c7c7c7]  ">
-                                        <img src={tech2} className=" w-full   " />
-                                    </div>
-                                    <div className="p-[10px]  text-center">
-                                        <div><span className="font-semibold " >Kanishk Bhardwaj</span></div>
-                                        <div><span className="text-[14px]" >3<sup>rd </sup>year CE</span></div>
-                                    </div>
-                                </div>
-                                <div className="mt-[25px] md:mt-0 overflow-hidden team-photo  rounded-[20px]">
-                                    <div className="w-[250px] h-[300px] overflow-hidden bg-[#c7c7c7]   ">
-                                        <img src={tech3} className=" w-full   " />
-                                    </div>
-                                    <div className="p-[10px]  text-center">
-                                        <div><span className="font-semibold " >Prashant Singh</span></div>
-                                        <div><span className="text-[14px]" >2<sup>nd </sup>year IOT</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-            {/* <div className="h-[500vh]" /> */}
         </>
     )
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-import { jw, ba, cw, bob, th, workshop, cementpottery, civilwar } from "../assets";
+import { jw, ba, cw, bob, th, workshop, cementpottery, ctc, tower_1, quake_img, pot_img, essay_img, inno_img, mud_img, brush_img } from "../assets";
 
 const FestEvent = () => {
   return (
@@ -43,9 +43,9 @@ const FestEvent = () => {
           <div className="flex justify-center items-center ">
             <div className="-z-10 overflow-hidden"><img src={cementpottery} className="rounded-[30px] " /></div>
             <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
-            tracking-wide">Cement Pottery</span></div>
+            tracking-wide">Toogle</span></div>
           </div>
-          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/cement-pottery' >Register Now</Link></span></div>
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/toogle' >Register Now</Link></span></div>
         </div>
 
         <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
@@ -61,9 +61,9 @@ const FestEvent = () => {
           <div className="flex justify-center items-center ">
             <div className="-z-10 overflow-hidden"><img src={workshop} className="rounded-[30px] " /></div>
             <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
-            tracking-wide">WORKSHOP</span></div>
+            tracking-wide">Workshop</span></div>
           </div>
-          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/workshop' >Register Now</Link></span></div>
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/cement-workshop' >Register Now</Link></span></div>
         </div>
 
         <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
@@ -77,11 +77,74 @@ const FestEvent = () => {
 
         <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
           <div className="flex justify-center items-center ">
-            <div className="-z-10 overflow-hidden"><img src={civilwar} className="rounded-[30px] " /></div>
+            <div className="-z-10 overflow-hidden"><img src={tower_1} className="rounded-[30px] " /></div>
             <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
-            tracking-wide">CIVIL WAR</span></div>
+            tracking-wide">Tower Craft</span></div>
           </div>
-          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/civil-war ' >Register Now</Link></span></div>
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/tower-craft ' >Register Now</Link></span></div>
+        </div>
+
+        <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
+          <div className="flex justify-center items-center ">
+            <div className="-z-10 overflow-hidden"><img src={quake_img} className="rounded-[30px] " /></div>
+            <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
+            tracking-wide">Quake Proof</span></div>
+          </div>
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/quakeproof ' >Register Now</Link></span></div>
+        </div>
+
+        <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
+          <div className="flex justify-center items-center ">
+            <div className="-z-10 overflow-hidden"><img src={pot_img} className="rounded-[30px] " /></div>
+            <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
+            tracking-wide">Mix and Mould</span></div>
+          </div>
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/mix-and-mould ' >Register Now</Link></span></div>
+        </div>
+
+        <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
+          <div className="flex justify-center items-center ">
+            <div className="-z-10 overflow-hidden"><img src={essay_img} className="rounded-[30px] " /></div>
+            <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
+            tracking-wide">Art of <br/>Persuasion</span></div>
+          </div>
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/art-of-persuasion ' >Register Now</Link></span></div>
+        </div>
+        
+        <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
+          <div className="flex justify-center items-center ">
+            <div className="-z-10 overflow-hidden"><img src={inno_img} className="rounded-[30px] " /></div>
+            <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
+            tracking-wide">Innostruct</span></div>
+          </div>
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/innostruct ' >Register Now</Link></span></div>
+        </div>
+
+        <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
+          <div className="flex justify-center items-center ">
+            <div className="-z-10 overflow-hidden"><img src={ctc} className="rounded-[30px] " /></div>
+            <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
+            tracking-wide">Crack the Cad</span></div>
+          </div>
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/crack-the-cad ' >Register Now</Link></span></div>
+        </div>
+
+        <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
+          <div className="flex justify-center items-center ">
+            <div className="-z-10 overflow-hidden"><img src={mud_img} className="rounded-[30px] " /></div>
+            <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
+            tracking-wide">The Mudventure</span></div>
+          </div>
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/the-mud-adventure ' >Register Now</Link></span></div>
+        </div>
+
+        <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
+          <div className="flex justify-center items-center ">
+            <div className="-z-10 overflow-hidden"><img src={brush_img} className="rounded-[30px] " /></div>
+            <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
+            tracking-wide">Let the brush <br/>talk</span></div>
+          </div>
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/let-the-brush-talk ' >Register Now</Link></span></div>
         </div>
 
       </div>
