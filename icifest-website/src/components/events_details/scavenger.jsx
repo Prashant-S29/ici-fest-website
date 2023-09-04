@@ -22,7 +22,7 @@ const SH = () => {
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
                             <div><span>Date - 17<sup>th </sup>September 2023</span></div>
                             <div className='mt-[10px]'><span>Time - 09:00 am to 10:30 am</span></div>
-                            {/* <div className='mt-[10px]'><span>Venue</span></div> */}
+                            {/* <div className='mt-[10px]'><span>Venue - </span></div> */}
                             {/* <div><span>Tech zone in football ground</span></div> */}
                         </div>
                         <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] md:mt-0 "><span>Registration Fee - ₹200 per team</span></div>
@@ -58,11 +58,11 @@ const SH = () => {
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>EVENT DESCRIPTION</span></div>
                                 <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>
-                                    This scavenger hunt is not the common one. This time it is a
-                                    trivia hunt. Scavenger hunt is a game in which the organizers
-                                    prepare a list of specific items, challenges, or activities that
-                                    the participants must find, complete, or perform. There are 7
-                                    levels in the game. .</span></div>
+                                    This scavenger hunt is going to be one of the thrilling and inspiring
+                                    events of ICI FEST 2023. Scavenger hunt is a game in which the
+                                    organizers prepare a list of specific items, challenges, or activities
+                                    that the participants must find, complete, or perform. There are 7
+                                    levels in the game. All the levels are contrary and stimulating.</span></div>
                                 <div className='text-left flex justify-center'>
                                     <div>
 
@@ -73,6 +73,7 @@ const SH = () => {
                                                 <li>2. All the cell phones will be collected at the briefing time of event.</li>
                                                 <li>3. There is disqualification of teams at every level..</li>
                                                 <li>4. Use of unfair means and gossip with other teams is not allowed.</li>
+                                                <li>5. . All the 4 members should be present at the time of answer checking.</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -87,7 +88,7 @@ const SH = () => {
                     </div>
                     <div className={`${activeButton === 1 ? 'active-div' : 'deactive-div'} text-[18px] `}>
                         <div className='text-center'>
-                        <span>There are <b>various levels</b> in the games. Each level has some specific task.</span>
+                            <span>There are <b>various levels</b> in the games. Each level has some specific task.</span>
                         </div>
                     </div>
                     <div className={`${activeButton === 2 ? 'active-div' : 'deactive-div'} mx-[20px]`}>

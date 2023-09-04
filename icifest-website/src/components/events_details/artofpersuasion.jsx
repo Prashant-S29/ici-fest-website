@@ -28,7 +28,7 @@ const ARTOFPERSUASION = () => {
                         <div className="flex justify-center"><div className="w-[100px] h-[4px] bg-[#ff583e]  " /></div>
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
                             <div><span>Date - 15<sup>th </sup>September 2023</span></div>
-                            <div className='mt-[10px]'><span>Time - 11:00 am - 12:30 pm</span></div>
+                            <div className='mt-[10px]'><span>Time - 11:30 am - 12:30 pm</span></div>
                             <div className='mt-[10px]'><span>Venue - COS Lab 2nd Floor, Civil Block</span></div>
                             {/* <div><span>Tech zone in football ground</span></div> */}
                         </div>
@@ -61,20 +61,21 @@ const ARTOFPERSUASION = () => {
 
                     <div className="flex justify-center mt-[20px]">
                         <div className={activeButton === 0 ? 'active-div' : 'deactive-div'}>
+                           
+                            
                             <div className='text-center  mb-[50px]'>
-                                <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>EVENT DESCRIPTION</span></div>
-                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>It's an essay writing. Participants will have to write an essay on the  provided topic .</span></div>
+                                <div className=' mb-[10px] '><span className='font-bold  text-[20px] underline  '>PROBLEM STATEMENT</span></div>
+                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '>
+                                <span className='text-[18px] font-semibold'>It's an essay writing. Participants will have to write an essay on the  provided topic. </span><span className='text-[18px] font-bold '> <br/>Topic - "Beyond Blueprints: Integrating multidisciplinary knowledge into civil engineering".
+                                </span></div>
+                                <div><span className='font-semibold'>Word Limit: </span><span> 600 - 750 words</span></div>
                             </div>
+
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>PARTICIPATION</span></div>
                                 <div><span className='font-semibold text-[17px]'>Individual Participant.</span></div>
                             </div>
-                            <div className='text-center  mb-[50px]'>
-                                <div className=' mb-[10px] '><span className='font-bold  text-[20px] underline  '>PROBLEM STATEMENT</span></div>
-                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[18px] font-bold '> Topic - "Beyond Blueprints: Integrating multidisciplinary knowledge into civil engineering".
-                                </span></div>
-                                <div><span className='font-semibold'>Word Limit: </span><span> 600 - 750 words</span></div>
-                            </div>
+
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>MATERIALS PROVIDED</span></div>
                                 <div className='flex justify-center text-left'>

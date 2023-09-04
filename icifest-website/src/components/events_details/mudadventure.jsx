@@ -6,9 +6,8 @@ import { Link } from 'react-router-dom';
 const materialData = [
     { material: 'Sand', quantity: '-' },
     { material: 'Water', quantity: '-' },
-    { material: 'Card Board', quantity: '1 (30cm x 30cm)' },
-    { material: 'Water Bucket', quantity: '1' },
-    
+    { material: 'Water Bottel', quantity: '1' },
+
 
 ];
 
@@ -79,24 +78,14 @@ const MUDADVENTURE = () => {
                             </div>
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>MATERIALS PROVIDED</span></div>
-                                <div className='flex justify-center text-left'>
-                                    <table className='table-auto text-[17px]'>
-                                        <thead>
-                                            <tr className=''>
-                                                <th className='pr-[10px] md:pr-[80px]'>Materials &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-                                                <th>Quantity</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {materialData.map((item, index) => (
-                                                <tr key={index}>
-                                                    <td>{item.material}</td>
-                                                    <td>{item.quantity}</td>
-                                                </tr>
-                                            ))}
-                                        </tbody>
-                                    </table>
-
+                                <div className='flex justify-center text-[17px]'>
+                                    <div>
+                                        {materialData.map((item, index) => (
+                                            <div key={index}>
+                                                <span>{item.material}</span>
+                                            </div>
+                                        ))}
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +102,7 @@ const MUDADVENTURE = () => {
                         <div className='flex justify-center text-[17px] text-center'>
                             <div>
                                 <div className='mt-[10px]'><span><b>Height of the structure and Stability</b></span></div>
-                                <div><span>Judges will judge your models based on it's Height and Stability.</span></div>
+                                <div><span>Your model will be judged based on the creativity and it's beautification.</span></div>
                             </div>
                         </div>
                     </div>

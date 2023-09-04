@@ -1,6 +1,6 @@
 import React from "react";
 
-import { img11, img12, img13, img14, img15, img16, img17, img18, img19, img20} from "../assets";
+import { img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, prize_img } from "../assets";
 import Highlight from "./highlights";
 
 import Counter from "./counter";
@@ -15,51 +15,51 @@ const About = () => {
       image: img13,
       w: "150px",
       h: "150px",
-      w_mob:"120px",
-      h_mob:"100px"
+      w_mob: "120px",
+      h_mob: "100px"
     },
     {
       image: img14,
       w: "150px",
       h: "150px",
-      w_mob:"120px",
-      h_mob:"100px"
+      w_mob: "120px",
+      h_mob: "100px"
     },
     {
       image: img15,
       w: "150px",
       h: "150px",
-      w_mob:"100px",
-      h_mob:"100px"
+      w_mob: "100px",
+      h_mob: "100px"
     },
     {
       image: img16,
       w: "120px",
       h: "120px",
-      w_mob:"90px",
-      h_mob:"90px"
+      w_mob: "90px",
+      h_mob: "90px"
     }
     ,
     {
       image: img18,
       w: "150px",
       h: "150px",
-      w_mob:"100px",
-      h_mob:"100px"
+      w_mob: "100px",
+      h_mob: "100px"
     },
     {
       image: img19,
       w: "150px",
       h: "150px",
-      w_mob:"100px",
-      h_mob:"100px"
+      w_mob: "100px",
+      h_mob: "100px"
     },
     {
       image: img20,
       w: "150px",
       h: "150px",
-      w_mob:"120px",
-      h_mob:"120px"
+      w_mob: "120px",
+      h_mob: "120px"
     }
   ]
 
@@ -83,7 +83,7 @@ const About = () => {
                 <Link to='/registrations'>Register Now</Link>
               </button></div>
               <div className="flex justify-center items-center bg-white text-black px-[15px] md:px-[20px] py-[6px] md:py-[8px] text-[13px] md:text-[14px] rounded-[8px] w-fit font-bold border border-black" >
-              <button type="button" className="w-full"><Link to="/events">Browse all events</Link></button></div>
+                <button type="button" className="w-full"><Link to="/events">Browse all events</Link></button></div>
             </div>
           </div>
         </div>
@@ -96,9 +96,15 @@ const About = () => {
         </div>
       </div>
 
-      <Counter/>
+      <div className="flex justify-center items-center mt-[100px] lg:mt-[150px] xl:mt-[200px] ">
+        <div className=" bg-[#ff583e] rounded-[20px] md:rounded-[50px] w-full h-[150px] md:h-[350px] -mx-[20px] xl:mx-[200px]" />
+        <img src={prize_img} className="h-[300px] md:h-[550px] absolute -mr-[10px]" />
+      </div>
 
-      <div className="block gap-[150px] lg:gap-[250px]">
+      <br /><br /><br />
+      <Counter />
+
+      <div className="block gap-[150px] lg:gap-[250px] ">
         <div className="flex justify-center mt-[50px]" ><span className="text-[30px] md:text-[36px] font-extrabold">Prior Sponsors<span className="text-[#ff583e]">.</span></span></div>
 
         <div className="block md:flex justify-center gap-[150px] mt-[10px] md:mt-[50px]">

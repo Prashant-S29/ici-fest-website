@@ -22,22 +22,22 @@ const Timeline = () => {
     {
       Event: {
         "1": "Bowling Alley (Round 1)",
-      }, Timing: '11:00 am - 12:30 pm'
+      }, Timing: '11:30 am - 01:00 pm'
     },
     {
       Event: {
         "1": "Toggle",
-      }, Timing: '11:00 am - 12:30 pm'
+      }, Timing: '11:30 am - 01:30 pm'
     },
     {
       Event: {
         "1": "Art of Persuasion",
-      }, Timing: '11:00 am - 12:00 pm'
+      }, Timing: '11:30 am - 12:30 pm'
     },
     {
       Event: {
         "1": "Quake Proof (Round 1)",
-      }, Timing: '01:00 pm - 03:30 pm'
+      }, Timing: '01:00 pm - 03:00 pm'
     },
     {
       Event: {
@@ -95,7 +95,7 @@ const Timeline = () => {
     {
       Event: {
         "1": "Let the Brush Talk",
-      }, Timing: '01:00 pm - 02:00 pm'
+      }, Timing: '09:00 am - 11:00 am'
     },
     {
       Event: {

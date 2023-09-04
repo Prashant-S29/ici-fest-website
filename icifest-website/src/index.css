@@ -8,9 +8,9 @@
     width: 0;
 }
 
-::selection {
+/* ::selection {
     background-color: transparent;
-}
+} */
 
 .nav_font {
     font-family: 'Montserrat';

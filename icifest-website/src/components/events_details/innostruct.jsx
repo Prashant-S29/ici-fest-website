@@ -55,18 +55,17 @@ const INNOSTRUCT = () => {
 
                     <div className="flex justify-center mt-[20px]">
                         <div className={activeButton === 0 ? 'active-div' : 'deactive-div'}>
-                            <div className='text-center  mb-[50px]'>
-                                <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>EVENT DESCRIPTION</span></div>
-                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>This event focusing on crafting excellence out of waste materials.</span></div>
+                            
+                            <div className='text-center  mb-[50px] font-semibold'>
+                                <div className=' mb-[10px] '><span className='font-bold  text-[20px] underline  '>PROBLEM STATEMENT</span></div>
+                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] '>This event focusing on crafting excellence out of waste materials. This event seeks to redefine how waste is perceived and utilized, paving the way for a greener and more responsible future in engineering.
+                                </span></div>
                             </div>
+
+                            
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>PARTICIPATION</span></div>
                                 <div><span className='font-semibold text-[17px]'>A team should consist of only of 2 participants.</span></div>
-                            </div>
-                            <div className='text-center  mb-[50px] font-semibold'>
-                                <div className=' mb-[10px] '><span className='font-bold  text-[20px] underline  '>PROBLEM STATEMENT</span></div>
-                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] '>This event seeks to redefine how waste is perceived and utilized, paving the way for a greener and more responsible future in engineering.
-                                </span></div>
                             </div>
 
                             <div className='  mb-[50px] font-semibold'>

@@ -20,7 +20,7 @@ const TOGGLE = () => {
                         <div className="flex justify-center"><div className="w-[100px] h-[4px] bg-[#ff583e]  " /></div>
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
                             <div><span>Date - 15<sup>th </sup>September 2023</span></div>
-                            <div className='mt-[10px]'><span>Time  - 11:00 am to 12:30 pm</span></div>
+                            <div className='mt-[10px]'><span>Time  - 11:00 am to 01:30 pm</span></div>
                             <div className='mt-[10px]'><span>Venue - Communication Skills Lab</span></div>
                             <div><span>Civil Block 2nd floor.</span></div>
                         </div>
@@ -53,24 +53,23 @@ const TOGGLE = () => {
 
                     <div className="flex justify-center mt-[20px]">
                         <div className={activeButton === 0 ? 'active-div' : 'deactive-div'}>
-                            <div className='text-center  mb-[50px]'>
-                                <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>EVENT DESCRIPTION</span></div>
-                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>Participants will be provided a topic and they have to speak on it.</span></div>
-                            </div>
-                            <div className='text-center  mb-[50px]'>
-                                <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>PARTICIPATION</span></div>
-                                <div><span className='font-semibold text-[17px]'>Individual Participation</span></div>
-                            </div>
+                            
+                            
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] '><span className='font-bold  text-[20px] underline  '>PROBLEM STATEMENT</span></div>
                                 <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>In this activity, every participant will be given a topic . They will start by presenting the positive aspects/advantages of the given topic. When the judges say the word 'TOGGLE,' participants must switch to the negative aspects/disadvantages of the topic. This alternating pattern will continue throughout the activity.
                                 </span></div>
                             </div>
+
+                            <div className='text-center  mb-[50px]'>
+                                <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>PARTICIPATION</span></div>
+                                <div><span className='font-semibold text-[17px]'>Individual Participation</span></div>
+                            </div>
                             
                         </div>
                     </div>
                     <div className={`${activeButton === 1 ? 'active-div' : 'deactive-div'} text-[18px] `}>
-                        <div className='text-center mx-[10px]'><span className='font-semibold'>Each participant will be allotted a 3-minute speaking slot and will be given 3 minutes of preparation time before their turn to speak.</span></div>
+                        <div className='text-center mx-[10px]'><span className='font-semibold'>Each participant will be allotted a 3-minute speaking slot and will be given 4 minutes of preparation time before their turn to speak.</span></div>
                     </div>
                     <div className={`${activeButton === 2 ? 'active-div' : 'deactive-div'} mx-[20px]`}>
                         <div className='text-center mb-[10px]'><span className='font-bold text-[20px] underline'>JUDGING CRITERIA</span></div>

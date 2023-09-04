@@ -11,7 +11,6 @@ const materialData = [
     { material: 'Sand', quantity: '15 Kg' },
     { material: 'Water', quantity: '4 Liters' },
     { material: 'Hand Pan', quantity: '2' },
-    { material: 'Threads', quantity: 'If needed' },
 ];
 
 
@@ -66,14 +65,8 @@ const BOB = () => {
 
                     <div className="flex justify-center mt-[20px]">
                         <div className={activeButton === 0 ? 'active-div' : 'deactive-div'}>
-                            <div className='text-center  mb-[50px]'>
-                                <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>EVENT DESCRIPTION</span></div>
-                                <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>In this event, all the teams have to construct a L-Shaped step walls using bricks. The walls will be checked for stability and safety.</span></div>
-                            </div>
-                            <div className='text-center  mb-[50px]'>
-                                <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>PARTICIPATION</span></div>
-                                <div><span className='font-semibold text-[17px]'>All the teams must have 4 memebers each.</span></div>
-                            </div>
+                           
+                            
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] '><span className='font-bold  text-[20px] underline  '>PROBLEM STATEMENT</span></div>
                                 <div className='mx-[20px] md:mx-[120px] xl:mx-[220px] '><span className='text-[17px] font-semibold'>Construct a structurally sound L-shaped step wall using bricks. The challenge is to create a design that showcases the versatility of brick as a building material, while ensuring the wall's stability and safety for users.
@@ -86,6 +79,13 @@ const BOB = () => {
                                     <div><span>Height of the structure - 19 inches</span></div>
                                 </div>
                             </div>
+
+                            <div className='text-center  mb-[50px]'>
+                                <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>PARTICIPATION</span></div>
+                                <div><span className='font-semibold text-[17px]'>All the teams must have 4 members each.</span></div>
+                            </div>
+
+
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>MATERIALS PROVIDED</span></div>
                                 <div className='flex justify-center text-left'>
@@ -128,7 +128,7 @@ const BOB = () => {
                                 <div><span>2. Placement of Bricks and it's  bond alignment.</span></div>
                                 <div><span>3. 90° angle between the corners of wall.</span></div>
                                 <div><span>4. Straightness of wall.</span></div>
-                                <div><span>5. Space of each step must be same.</span></div>
+                                <div><span>5. Length of each step must be same.</span></div>
                             </div>
                         </div>
                     </div>
