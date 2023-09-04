@@ -84,6 +84,8 @@ import inno_img from './event-pics/inno.png';
 import mud_img from './event-pics/mud.png';
 import brush_img from './event-pics/brush.png';
 
+import map_img from './map.png';
+
 export {
     bg_video_desktop,
     bg_video_mobile,
@@ -124,5 +126,5 @@ export {
     one, two, three, four,
     next,
     bob_img,joist_img, bowling_img, tower_img, crackthecad_img,
-    quake_img,pot_img,essay_img, inno_img, mud_img, brush_img
+    quake_img,pot_img,essay_img, inno_img, mud_img, brush_img, map_img
 };

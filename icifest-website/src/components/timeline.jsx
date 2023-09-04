@@ -12,45 +12,57 @@ const Timeline = () => {
     {
       Event: {
         "1": "Inaugural",
-      }, Timing: '9:00 am - 10:00 am'
-    },
-    {
-      Event: {
-        "1": "Engineers Day Celebration ",
-      }, Timing: '10:00 am - 11:30 am'
+      }, Timing: '10:00 am - 11:00 am'
     },
     {
       Event: {
         "1": "Joist Kwik (Round 1)",
-      }, Timing: '11:30 am - 01:30 pm'
-    },
-    {
-      Event: {
-        "1": "Toggle",
-      }, Timing: '12:00 pm - 01:30 pm'
+      }, Timing: '11:00 am - 01:00 pm'
     },
     {
       Event: {
         "1": "Bowling Alley (Round 1)",
-        "2": "Art of Persuasion",
-      }, Timing: '12:30 pm - 01:30 pm'
+      }, Timing: '11:00 am - 12:30 pm'
     },
     {
       Event: {
-        "1": "Quake Proof (Round 1)",
-      }, Timing: '01:30 pm - 03:30 pm'
+        "1": "Toggle",
+      }, Timing: '11:00 am - 12:30 pm'
     },
     {
       Event: {
-        "1": "Mix & Mould (Round 1) ",
-        "2": "Crack the Cad",
-        "3": "The Mudventures",
-      }, Timing: '02:30 pm - 03:30 pm'
+        "1": "Art of Persuasion",
+      }, Timing: '11:00 am - 12:00 pm'
+    },
+    {
+      Event: {
+        "1": "Quake Proof",
+      }, Timing: '01:00 pm - 03:30 pm'
+    },
+    {
+      Event: {
+        "1": "Mix & Mould (Round 1)",
+      }, Timing: '01:00 pm - 02:00 pm'
+    },
+    {
+      Event: {
+        "1": "Crack the Cad",
+      }, Timing: '01:00 pm - 02:00 pm'
+    },
+    {
+      Event: {
+        "1": "The Mudventure",
+      }, Timing: '01:00 pm - 02:00 pm'
+    },
+    {
+      Event: {
+        "1": "Engineers Day Celebration",
+      }, Timing: '02:00 pm - 03:30 pm'
     },
     {
       Event: {
         "1": "Rejoice",
-      }, Timing: '03:30 pm Onwards'
+      }, Timing: '03:30 pm onwards'
     },
   ];
 
@@ -58,32 +70,52 @@ const Timeline = () => {
     {
       Event: {
         "1": "Joist Kwik (Round 2)",
-        "2": "Quake Proof (Round 2)",
-        "3": "Bowling Alley (Round 2)",
-      }, Timing: '08:30 am - 11:00 am'
+      }, Timing: '08:15 am - 11:00 pm'
+    },
+    {
+      Event: {
+        "1": "Quake Proof (Round 1)",
+      }, Timing: '08:15 am - 11:00 am'
+    },
+    {
+      Event: {
+        "1": "Bowling Alley (Round 2)",
+      }, Timing: '08:15 am - 11:00 am'
     },
     {
       Event: {
         "1": "Brick-O-Brick",
-        "2": "Mix & Mould (Round 2)",
-        "3": "Let the Brush Talk",
-      }, Timing: '09:00 am - 11:30 am'
+      }, Timing: '09:00 am - 11:00 am'
+    },
+    {
+      Event: {
+        "1": "Mix & Mould (Round 2)",
+      }, Timing: '09:00 am - 11:00 am'
+    },
+    {
+      Event: {
+        "1": "Let the Brush Talk",
+      }, Timing: '01:00 pm - 02:00 pm'
     },
     {
       Event: {
         "1": "Tower Craft",
-        "2": "InnoStruct",
       }, Timing: '12:30 pm - 02:00 pm'
     },
     {
       Event: {
-        "1": "Cement Workshop",
+        "1": "Innostruct",
+      }, Timing: '12:30 pm - 02:00 pm'
+    },
+    {
+      Event: {
+        "1": "Workshop",
       }, Timing: '01:00 pm - 02:00 pm'
     },
     {
       Event: {
         "1": "Validatory",
-      }, Timing: '02:00 pm Onwards'
+      }, Timing: '02:00 pm onwards'
     },
   ];
 

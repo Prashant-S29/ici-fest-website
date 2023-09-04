@@ -15,7 +15,7 @@ import JK from "./components/events_details/joistkwik";
 import BA from "./components/events_details/bowlingalley";
 import BOB from "./components/events_details/brickobrick";
 import SH from "./components/events_details/scavenger";
-import TOOGLE from "./components/events_details/toogle";
+import TOGGLE from "./components/events_details/toggle";
 import TOWER from "./components/events_details/towercraft";
 import QUAKE from "./components/events_details/quakeproof";
 import MIXANDMOULD from "./components/events_details/mixandmould";
@@ -71,7 +71,7 @@ const App = () => {
               <Route path="/bolwing-alley" element={<BA />} />
               <Route path="/brick-o-brick" element={<BOB />} />
               <Route path="/scanvenger-hunt" element={<SH />} />
-              <Route path="/toogle" element={<TOOGLE />} />
+              <Route path="/toggle" element={<TOGGLE />} />
               <Route path="/tower-craft" element={<TOWER />} />
               <Route path="/quakeproof" element={<QUAKE />} />
               <Route path="/mix-and-mould" element={<MIXANDMOULD />} />
@@ -80,8 +80,8 @@ const App = () => {
               <Route path="/crack-the-cad" element={<CRACKTHECAD />} />
               <Route path="/the-mud-adventure" element={<MUDADVENTURE />} />
               <Route path="/let-the-brush-talk" element={<BRUSHTALK />} />
-              {/* <Route path="/cement-workshop" element={<WORKSHOP />} /> */}
-              {/* <Route path="/cyclothon-walkathon" element={<WALKATHON />} /> */}
+              <Route path="/cement-workshop" element={<WORKSHOP />} />
+              <Route path="/cyclothon-walkathon" element={<WALKATHON />} />
 
             </Routes>
             <Footer />

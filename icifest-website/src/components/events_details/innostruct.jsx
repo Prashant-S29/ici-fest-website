@@ -24,10 +24,9 @@ const INNOSTRUCT = () => {
                             <div><span>Date - 16<sup>th </sup>September 2023</span></div>
                             <div className='mt-[10px]'><span>Time - 12:30 pm to 02:00 pm</span></div>
                             <div className='mt-[10px]'><span>Venue - Football Ground</span></div>
-                            {/* <div><span>Tech zone in football ground</span></div> */}
                         </div>
                         <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] md:mt-0 "><span>Registration Fee - ₹100 per team</span></div>
-                        <div className='mt-[10px]'><span className='font-semibold text-[18px]'>All the teams must have 2 memebers each.</span></div>
+                        <div className='mt-[10px]'><span className='font-semibold text-[18px]'>All the teams must have 2 members each.</span></div>
                         <div className='mt-[10px] font-semibold'><button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[14px] lg:text-[16px]  self-center"><Link to='/registrations'>Register Now</Link></button></div>
                     </div>
                 </div>

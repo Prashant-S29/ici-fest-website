@@ -71,7 +71,7 @@ const About = () => {
             <div><span className="text-[30px] md:text-[36px] font-extrabold"><span className="text-[#ff583e]">ICI</span> FEST</span></div>
           </div>
           <div>
-            <span className=" text-[14px] md:text-[18px]">ICI fest aims to aspire the young brains to showcase their skills and compete with others by participating in various technical events and workshop. Register today to make yourself stand out among all odds.</span>
+            <span className=" text-[14px] md:text-[18px]">ICI fest aims at aspiring the young brains to showcase their skills and compete with others by participating in various technical events and workshop. Register today to make yourself stand out among all odds.</span>
           </div>
           <div>
             <div className="mt-[10px]"><span className="font-bold text-[16px] md:text-[18px]">Dates for FEST'23</span></div>

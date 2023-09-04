@@ -43,9 +43,9 @@ const FestEvent = () => {
           <div className="flex justify-center items-center ">
             <div className="-z-10 overflow-hidden"><img src={cementpottery} className="rounded-[30px] " /></div>
             <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
-            tracking-wide">Toogle</span></div>
+            tracking-wide">Toggle</span></div>
           </div>
-          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/toogle' >Register Now</Link></span></div>
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/toggle' >Register Now</Link></span></div>
         </div>
 
         <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
@@ -54,7 +54,8 @@ const FestEvent = () => {
             <div className="absolute text-center " ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
             tracking-wide">Cyclothon & <br />Walkathon</span></div>
           </div>
-          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/cyclothon-walkathon' >Register Now</Link></span></div>
+          <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200">
+          <Link to='/cyclothon-walkathon' >Register Now</Link></span></div>
         </div>
 
         <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
@@ -97,7 +98,7 @@ const FestEvent = () => {
           <div className="flex justify-center items-center ">
             <div className="-z-10 overflow-hidden"><img src={pot_img} className="rounded-[30px] " /></div>
             <div className="absolute text-center" ><span className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
-            tracking-wide">Mix and Mould</span></div>
+            tracking-wide">Mix & Mould</span></div>
           </div>
           <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black"><span className="text-white font-semibold hover:text-[#ff583e] duration-200"><Link to='/mix-and-mould ' >Register Now</Link></span></div>
         </div>

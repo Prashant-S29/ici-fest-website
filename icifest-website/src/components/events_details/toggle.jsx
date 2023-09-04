@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
-const TOOGLE = () => {
+const TOGGLE = () => {
     const [activeButton, setActiveButton] = useState(0);
 
     const handleButtonClick = (index) => {
@@ -95,4 +95,4 @@ const TOOGLE = () => {
     );
 };
 
-export default TOOGLE;
+export default TOGGLE;

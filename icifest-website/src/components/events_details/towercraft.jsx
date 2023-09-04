@@ -103,11 +103,10 @@ const TOWER = () => {
                         </div>
                     </div>
                     <div className={`${activeButton === 1 ? 'active-div' : 'deactive-div'} text-[18px] `}>
-                        <div className='text-center'><span className='font-bold  text-[20px] '>
-                            The event will be conducted in <span> 2 rounds</span></span></div>
+                        
                         <div className='flex justify-center mt-[10px] mx-[10px] text-center'>
-                            <div>
-                                <div><span>Teams will be given <b>1 hr and 30 minutes</b> to make their tower and submit the model for judgement. No submissions are allowed after the given time.</span></div>
+                            <div className='mx-[20px] md:mx-[120px] xl:mx-[220px]'>
+                                <div><span>This is a single round event. Teams will be given <b>1 hour and 30 minutes</b> to make their tower and submit the model for judgement. No submissions are allowed after the given time.</span></div>
                             </div>
                         </div>
                     </div>
@@ -117,8 +116,7 @@ const TOWER = () => {
                             <div>
                                 <ul>
                                     <li>1. Your tower must be structurally sound with a stable base.</li>
-                                    <li>2. Height of the tower should be maximum in the given material.</li>
-                                    <li>3. The tower is measured to the lightening rod air terminal.</li>
+                                    <li>2. Height of the tower should be maximum.</li>
                                 </ul>
                             </div>
                         </div>

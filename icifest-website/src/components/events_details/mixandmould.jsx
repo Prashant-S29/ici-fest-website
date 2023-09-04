@@ -31,7 +31,7 @@ const MIXANDMOULD = () => {
             <div className="flex justify-center">
                 <div className=" mx-[10px] md:mx-[60px] lg:mx-[200px] w-full">
                     <div className="bg-[#ffb4a7] px-[20px] md:px-[40px] py-[30px] rounded-[30px] text-center" >
-                        <div><span className="font-extrabold text-[38px] md:text-[50px] uppercase" >MIX AND MOULD</span></div>
+                        <div><span className="font-extrabold text-[38px] md:text-[50px] uppercase" >MIX & MOULD</span></div>
                         <div className="flex justify-center"><div className="w-[100px] h-[4px] bg-[#ff583e]  " /></div>
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
                             <div><span>Date</span></div>
