@@ -28,7 +28,7 @@ const ARTOFPERSUASION = () => {
                         <div className="flex justify-center"><div className="w-[100px] h-[4px] bg-[#ff583e]  " /></div>
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
                             <div><span>Date - 15<sup>th </sup>September 2023</span></div>
-                            <div className='mt-[10px]'><span>Time - 12:30 pm - 01:30 pm</span></div>
+                            <div className='mt-[10px]'><span>Time - 11:00 am - 12:30 pm</span></div>
                             <div className='mt-[10px]'><span>Venue - COS Lab 2nd Floor, Civil Block</span></div>
                             {/* <div><span>Tech zone in football ground</span></div> */}
                         </div>

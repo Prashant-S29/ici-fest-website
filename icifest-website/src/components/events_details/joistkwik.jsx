@@ -32,8 +32,8 @@ const JK = () => {
                             <div><span>Round 1 - 15<sup>th </sup>September 2023</span></div>
                             <div><span>Round 2 - 16<sup>th </sup>September 2023</span></div>
                             <div className='mt-[10px]'><span>Time</span></div>
-                            <div><span>Round 1 - 11:30 AM to 01:30 PM</span></div>
-                            <div><span>Round 2 - 08:30 AM to 11:00 AM</span></div>
+                            <div><span>Round 1 - 11:00 AM to 01:00 PM</span></div>
+                            <div><span>Round 2 - 08:15 AM to 11:00 AM</span></div>
                             <div className='mt-[10px]'><span>Venue</span></div>
                             <div><span>Tech zone in football ground</span></div>
                         </div>

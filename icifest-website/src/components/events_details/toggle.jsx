@@ -20,7 +20,7 @@ const TOGGLE = () => {
                         <div className="flex justify-center"><div className="w-[100px] h-[4px] bg-[#ff583e]  " /></div>
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
                             <div><span>Date - 15<sup>th </sup>September 2023</span></div>
-                            <div className='mt-[10px]'><span>Time  - 12:00 PM to 01:30 PM</span></div>
+                            <div className='mt-[10px]'><span>Time  - 11:00 am to 12:30 pm</span></div>
                             <div className='mt-[10px]'><span>Venue - Communication Skills Lab</span></div>
                             <div><span>Civil Block 2nd floor.</span></div>
                         </div>
@@ -59,7 +59,7 @@ const TOGGLE = () => {
                             </div>
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] underline'><span className='font-bold  text-[20px]'>PARTICIPATION</span></div>
-                                <div><span className='font-semibold text-[17px]'>In teams. Must have 4 members each.</span></div>
+                                <div><span className='font-semibold text-[17px]'>Individual Participation</span></div>
                             </div>
                             <div className='text-center  mb-[50px]'>
                                 <div className=' mb-[10px] '><span className='font-bold  text-[20px] underline  '>PROBLEM STATEMENT</span></div>

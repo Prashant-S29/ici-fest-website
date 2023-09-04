@@ -30,7 +30,7 @@ const BRUSHTALK = () => {
                         <div className="flex justify-center"><div className="w-[100px] h-[4px] bg-[#ff583e]  " /></div>
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
                             <div><span>Date - 16<sup>th </sup>September 2023</span></div>
-                            <div className='mt-[10px]'><span>Time - 09:00 AM to 11:00 AM</span></div>
+                            <div className='mt-[10px]'><span>Time - 01:00 pm to 02:00 pm</span></div>
                             <div className='mt-[10px]'><span>Venue</span></div>
                             <div><span>CAEG Lab, Ground Floor, Civil Block</span></div>
                         </div>

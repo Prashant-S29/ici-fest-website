@@ -31,7 +31,7 @@ const MUDADVENTURE = () => {
                         <div className="flex justify-center"><div className="w-[100px] h-[4px] bg-[#ff583e]  " /></div>
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
                             <div><span>Date - 15<sup>th </sup>September 2023</span></div>
-                            <div className='mt-[10px]'><span>Time - 02:30 pm to 03:30 pm</span></div>
+                            <div className='mt-[10px]'><span>Time - 01:00 pm to 02:00 pm</span></div>
                             <div className='mt-[10px]'><span>Venue - Football Ground</span></div>
                         </div>
                         <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] md:mt-0 "><span>Registration Fee - ₹200 per team</span></div>

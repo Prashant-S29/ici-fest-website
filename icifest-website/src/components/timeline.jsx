@@ -36,7 +36,7 @@ const Timeline = () => {
     },
     {
       Event: {
-        "1": "Quake Proof",
+        "1": "Quake Proof (Round 1)",
       }, Timing: '01:00 pm - 03:30 pm'
     },
     {
@@ -74,7 +74,7 @@ const Timeline = () => {
     },
     {
       Event: {
-        "1": "Quake Proof (Round 1)",
+        "1": "Quake Proof (Round 2)",
       }, Timing: '08:15 am - 11:00 am'
     },
     {

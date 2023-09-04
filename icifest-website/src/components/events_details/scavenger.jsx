@@ -21,7 +21,7 @@ const SH = () => {
                         <div className="flex justify-center"><div className="w-[100px] h-[4px] bg-[#ff583e]  " /></div>
                         <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
                             <div><span>Date - 17<sup>th </sup>September 2023</span></div>
-                            <div className='mt-[10px]'><span>Time - 09:00 pm to 10:30 am</span></div>
+                            <div className='mt-[10px]'><span>Time - 09:00 am to 10:30 am</span></div>
                             {/* <div className='mt-[10px]'><span>Venue</span></div> */}
                             {/* <div><span>Tech zone in football ground</span></div> */}
                         </div>

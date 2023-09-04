@@ -32,8 +32,8 @@ const QUAKE = () => {
                             <div><span>Round 1 - 15<sup>th </sup>September 2023</span></div>
                             <div><span>Round 2 - 16<sup>th </sup>September 2023</span></div>
                             <div className='mt-[10px]'><span>Time</span></div>
-                            <div><span>Round 1 - 01:30 pm to 03:30 pm</span></div>
-                            <div><span>Round 2 - 08:00 am to 11:00 am</span></div>
+                            <div><span>Round 1 - 01:00 pm to 03:30 pm</span></div>
+                            <div><span>Round 2 - 08:15 am to 11:00 am</span></div>
                             <div className='mt-[10px]'><span>Venue</span></div>
                             <div><span>Tech zone in football ground</span></div>
                         </div>
